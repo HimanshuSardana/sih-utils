@@ -1,6 +1,6 @@
 import json
 import os
-from typing import Any, List
+from typing import Any
 
 files = os.listdir("ideas")
 print(files)
@@ -27,7 +27,7 @@ typst_template = f"""
 
 #show heading.where(level: 1): it => block[
   #set text(font: "Montserrat")
-  #text(size: 12pt, fill: blue, weight: "extrabold")[Chapter #counter(heading).display()] \\
+  #text(size: 12pt, fill: blue, weight: "extrabold")[Problem Statement #counter(heading).display()] \\
   #text(size: 20pt, weight: "extrabold")[#it.body]
   #v(-2mm)
   #line(length: 100%, stroke: (thickness: 1.5pt, paint: blue, dash: "dashed"))
@@ -41,35 +41,58 @@ for idx, file in enumerate(files):
         with open(os.path.join("ideas", file), "r") as f:
             data: dict[str, Any] = json.load(f)
 
+        need_to_know: str = data.get("need_to_know", "")
+        original_problem_statement: str = data.get("original_problem_statement", "")
+        category: str = data.get("category", "")
         problem_statement: str = data.get("problem_statement", "")
         idea: str = data.get("idea", "")
+        usps: list[str] = data.get("usps", [])
         problem_resolution: str = data.get("problem_resolution", "")
         how_it_works: str = data.get("how_it_works", "")
-        feasibility_points: List[str] = data.get("feasibility_points", [])
-        viability_points: List[str] = data.get("viability_points", [])
-        impact_points: List[str] = data.get("impact_points", [])
-        beneficiaries: List[str] = data.get("beneficiaries", [])
+        feasibility_points: list[str] = data.get("feasibility_points", [])
+        viability_points: list[str] = data.get("viability_points", [])
+        impact_points: list[str] = data.get("impact_points", [])
+        beneficiaries: list[str] = data.get("beneficiaries", [])
 
-        typst_content = (
-            "= Problem Statement\n"
-            f"{problem_statement}\n\n"
-            "== Idea\n"
-            f"{idea}\n\n"
-            "== Problem Resolution\n"
-            f"{problem_resolution}\n\n"
-            "== How It Works\n"
-            f"{how_it_works}\n\n"
-            "== Feasibility and Viability\n"
-            + ("- " + "\n- ".join(feasibility_points) if feasibility_points else "")
-            + ("\n- " + "\n- ".join(viability_points) if viability_points else "")
-            + "\n\n"
-            "== Impact and Beneficiaries\n"
-            + ("- " + "\n- ".join(impact_points) if impact_points else "")
-            + ("\n- " + "\n- ".join(beneficiaries) if beneficiaries else "")
-            + "\n\n#pagebreak()\n"
-        )
+        typst_lines = [
+            f"= {original_problem_statement} ({category})",
+            "",
+            "== Need to Know",
+            f"{need_to_know}",
+            "",
+            "== Description",
+            f"{problem_statement}",
+            "",
+            "== Idea",
+            f"{idea}",
+            "",
+            "== Problem Resolution",
+            f"{problem_resolution}",
+            "",
+            "== How It Works",
+            f"{how_it_works}",
+            "",
+            "== Unique Selling Points",
+        ]
+        if usps:
+            typst_lines.extend(f"- {usp}" for usp in usps)
+        typst_lines.append("== Feasibility and Viability")
+        if feasibility_points:
+            typst_lines.extend(f"- {point}" for point in feasibility_points)
+        if viability_points:
+            typst_lines.extend(f"- {point}" for point in viability_points)
+        typst_lines.append("")
+        typst_lines.append("== Impact and Beneficiaries")
+        if impact_points:
+            typst_lines.extend(f"- {point}" for point in impact_points)
+        if beneficiaries:
+            typst_lines.extend(f"- {b}" for b in beneficiaries)
+        typst_lines.append("")
+        typst_lines.append("#pagebreak()")
+        typst_content = "\n".join(typst_lines)
 
         typst_template += typst_content
+        typst_template += "\n\n"
 with open(f"output/final.typ", "w") as out_f:
     out_f.write(typst_template)
     os.system(f"typst compile output/final.typ pdfs/final.pdf > /dev/null 2>&1")
