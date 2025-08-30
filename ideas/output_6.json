@@ -1,0 +1,34 @@
+{
+  "need_to_know": "Biosecurity measures refer to practices and protocols designed to prevent the introduction and spread of diseases within livestock populations, crucial for maintaining animal health and farm productivity.",
+  "problem_statement": "Pig and poultry farms often struggle with consistent and efficient implementation of biosecurity measures. Manual processes lead to gaps, increasing disease risks, economic losses, and potential public health concerns.",
+  "idea": "A Digital Farm Management Portal specifically designed to streamline, monitor, and enforce biosecurity protocols for pig and poultry operations, ensuring healthier livestock and sustainable farming.",
+  "problem_resolution": "The portal digitizes biosecurity checks, provides real-time monitoring, and offers data-driven insights. It automates compliance, reduces human error, and proactively alerts farmers to potential biosecurity breaches, preventing disease spread.",
+  "usps": [
+    "Integrated real-time monitoring of biosecurity parameters and automated alerts for deviations.",
+    "Centralized digital platform for managing all biosecurity protocols, records, and compliance.",
+    "Data-driven insights and predictive analytics to identify risks and prevent disease outbreaks.",
+    "Customizable biosecurity checklists and protocols tailored to diverse farm sizes and needs.",
+    "User-friendly mobile and web interface for easy data entry and access from anywhere."
+  ],
+  "how_it_works": "The Digital Farm Management Portal utilizes a combination of technologies. IoT sensors (e.g., for gate access, temperature, humidity in critical zones, disinfectant levels) collect real-time data. Farmers and staff interact with the system via a mobile application or web portal to record biosecurity activities, complete checklists (e.g., visitor logs, equipment sanitation, animal health checks), and log feed/medication usage. This data is transmitted to a secure cloud-based backend. Machine Learning algorithms analyze the collected data for anomalies, patterns, and potential biosecurity risks, such as unusual visitor frequency or temperature fluctuations. The portal generates automated alerts and notifications for deviations from established protocols. Dashboards provide farmers with a comprehensive overview of their farm's biosecurity status, compliance, and historical data, facilitating informed decision-making. Technologies involved include IoT devices and sensors, cloud computing platforms (e.g., AWS, Azure), mobile and web application development frameworks (e.g., React Native, Angular), secure databases, and AI/ML for data analytics and predictive modeling.",
+  "feasibility_points": [
+    "Leverages widely available and mature IoT, cloud computing, and mobile technologies.",
+    "Growing digital literacy among farmers supports adoption and ease of implementation.",
+    "Biosecurity protocols are largely standardized, making their digitization straightforward."
+  ],
+  "viability_points": [
+    "Reduces disease-related losses significantly, improving farm profitability and sustainability.",
+    "Enhances compliance with regulatory standards, avoiding penalties and market access issues.",
+    "Meets a pressing industry need for robust, efficient disease prevention and management tools."
+  ],
+  "impact_points": [
+    "Significantly improves animal welfare by reducing disease incidence and suffering on farms.",
+    "Enhances food safety and public health by preventing contaminated products from reaching consumers."
+  ],
+  "beneficiaries": [
+    "Pig and poultry farmers directly benefit from reduced disease outbreaks, lower costs, and increased productivity.",
+    "Consumers benefit from safer, higher-quality meat products, and a more sustainable food supply chain."
+  ],
+  "original_problem_statement": "Development of a Digital Farm Management Portal for lmplementing Biosecurity ileasures in Pig and Poultry Farms",
+  "category": "Software"
+}

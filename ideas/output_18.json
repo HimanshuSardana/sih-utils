@@ -1,0 +1,35 @@
+{
+  "need_to_know": "Telemedicine refers to remote clinical services using technology. Nabha is a rural area in Punjab, India, often facing limited healthcare infrastructure and access to specialists.",
+  "problem_statement": "Rural Nabha lacks adequate access to specialized medical care due to geographical barriers and limited healthcare infrastructure. Patients often travel long distances for basic consultations.",
+  "idea": "A community-based telehealth kiosk network in Nabha, equipped with trained facilitators and secure video conferencing tools, connecting rural patients directly to urban specialists.",
+  "problem_resolution": "This network bridges the geographical gap, bringing specialized medical consultations directly to rural communities, reducing travel burden and improving timely access to care.",
+  "usps": [
+    "Localized community kiosks provide a trusted, accessible point of contact for healthcare services.",
+    "Trained local facilitators assist patients with technology and initial screening, ensuring ease of use for all.",
+    "Integration with existing local health workers for follow-ups and basic support, enhancing continuity of care.",
+    "Cost-effective solution reducing patient travel expenses, lost wages, and time off work.",
+    "Scalable model adaptable to other rural areas facing similar healthcare access challenges and needs."
+  ],
+  "how_it_works": "Patients visit a local telehealth kiosk in their community. A trained community health worker (CHW) or facilitator assists them in connecting via secure video conferencing to a remote doctor. The kiosk will be equipped with a computer, camera, microphone, high-speed internet, and basic diagnostic tools like a digital stethoscope, otoscope, or pulse oximeter. Electronic Health Records (EHR) systems will securely store patient data, ensuring privacy and continuity. AI can potentially aid in initial symptom assessment or data analysis for doctors, flagging urgent cases. The typical process involves patient registration, symptom intake by the facilitator, virtual consultation with a specialist, e-prescription generation (if needed), and follow-up scheduling, all managed within the kiosk environment.",
+  "feasibility_points": [
+    "Leverages readily available communication technologies and existing internet infrastructure, even in rural settings.",
+    "Can be implemented using existing community centers or primary health sub-centers, minimizing new infrastructure costs.",
+    "Training local individuals as facilitators is a cost-effective approach that empowers the community.",
+    "Government and private sector interest in rural healthcare solutions provides potential funding avenues."
+  ],
+  "viability_points": [
+    "Sustainable through potential government subsidies, NGO partnerships, and nominal patient fees, ensuring affordability.",
+    "Reduces pressure on urban hospitals by decentralizing basic consultations, optimizing healthcare resource allocation.",
+    "Improves public health outcomes, which can attract further investment and support from various stakeholders."
+  ],
+  "impact_points": [
+    "Significantly improves access to specialized medical advice and care for underserved rural populations.",
+    "Reduces morbidity and mortality rates by enabling early diagnosis and timely treatment of various conditions."
+  ],
+  "beneficiaries": [
+    "Rural residents of Nabha, especially the elderly, chronically ill, and those with limited mobility.",
+    "Healthcare providers gain expanded reach, enabling efficient patient management and reduced burden on urban facilities."
+  ],
+  "original_problem_statement": "Telemedicine Access for Rural Healthcare in Nabha",
+  "category": "Software"
+}

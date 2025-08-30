@@ -1,0 +1,34 @@
+{
+  "need_to_know": "An electric fence is a barrier that delivers an electric shock to deter animals or people. Unauthorized use refers to tampering, bypassing, or illegally connecting to the fence system.",
+  "problem_statement": "Electric fences lack robust detection against tampering or unauthorized connections. This leads to security breaches, property damage, or safety risks from misuse, necessitating a proactive monitoring solution.",
+  "idea": "Develop a smart, IoT-enabled hardware module for electric fences. It will actively monitor fence integrity, detect anomalies, and provide instant alerts to prevent unauthorized access or misuse, enhancing security.",
+  "problem_resolution": "The IoT module continuously monitors electrical parameters and physical state. It triggers real-time alerts upon detecting tampering or unauthorized connections, enabling immediate intervention and preventing misuse effectively.",
+  "usps": [
+    "Real-time anomaly detection and instant alerts via mobile app/SMS for rapid response.",
+    "AI-powered pattern recognition to differentiate legitimate vs. unauthorized fence events.",
+    "Remote monitoring and control of fence parameters and status from any location.",
+    "Integrated tamper-proof design with self-diagnostic capabilities for system reliability.",
+    "Seamless integration with existing electric fence systems for easy, cost-effective upgrade."
+  ],
+  "how_it_works": "The system comprises a microcontroller (e.g., ESP32) connected to various sensors. Voltage and current sensors monitor electrical pulses. Accelerometers/gyroscopes detect physical tampering or fence line movement. Proximity sensors or infrared beams can detect unauthorized approach or wire cutting. A GPS module provides location tracking. A communication module (LoRaWAN, NB-IoT, or cellular) transmits data securely. The microcontroller runs edge processing for basic anomaly detection. Data is then sent to a cloud-based IoT platform (e.g., AWS IoT, Google Cloud IoT). An AI/ML engine in the cloud analyzes historical data to learn normal fence behavior and identify complex unauthorized patterns. An alerting system triggers real-time notifications (SMS, email, push alerts) to users. A mobile application or web dashboard provides remote monitoring and control. Upon detection, the system can activate audible alarms, deterrent lights, or, if legally permissible, temporarily disarm the affected fence section.",
+  "feasibility_points": [
+    "Utilizes mature IoT sensor technology and microcontrollers, readily available and cost-effective.",
+    "Leverages existing cellular or LoRaWAN networks for reliable, wide-area communication.",
+    "Modular design allows easy integration and retrofitting with most standard electric fence setups."
+  ],
+  "viability_points": [
+    "Addresses a clear market need for enhanced security in agriculture, industrial, and residential sectors.",
+    "Offers significant cost savings by preventing theft, vandalism, and livestock escapes.",
+    "Potential for subscription-based services for cloud monitoring, advanced analytics, and support."
+  ],
+  "impact_points": [
+    "Significantly enhances security, reducing property loss, illegal entry, and safety hazards proactively.",
+    "Provides peace of mind to property owners through proactive monitoring and rapid response capabilities."
+  ],
+  "beneficiaries": [
+    "Farmers and ranchers protecting livestock, crops, and equipment from theft or predators.",
+    "Property owners, businesses, and industrial sites seeking robust perimeter security solutions."
+  ],
+  "original_problem_statement": "A hardware that can detect and prevent unauthorized use of electric fences",
+  "category": "Hardware"
+}

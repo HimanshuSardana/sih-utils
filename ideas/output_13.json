@@ -1,0 +1,34 @@
+{
+  "need_to_know": "Real-time public transport tracking shows live locations and estimated arrival times. Small cities often lack this, leading to commuter uncertainty and inconvenience.",
+  "problem_statement": "Small cities often lack real-time public transport tracking, causing uncertainty for commuters regarding bus locations and arrival times. This leads to long waits, missed connections, and reduced public transport usage.",
+  "idea": "Develop an affordable, user-friendly real-time public transport tracking system specifically designed for small cities. It will provide live vehicle locations and accurate arrival predictions via a mobile app.",
+  "problem_resolution": "This system solves uncertainty by providing live updates on bus locations and arrival times, helping commuters plan trips better, reduce wait times, and make public transport a more reliable option.",
+  "usps": [
+    "Cost-effective implementation tailored for smaller municipal budgets.",
+    "Simple, intuitive mobile app interface for easy public access and adoption.",
+    "Scalable architecture designed to grow seamlessly with city expansion and needs.",
+    "Leverages open-source technologies, promoting community involvement and lower costs.",
+    "Provides local data integration for accurate, context-specific information relevant to small cities."
+  ],
+  "how_it_works": "The system involves GPS trackers installed on public transport vehicles. These devices transmit real-time location data to a central cloud server (e.g., AWS, Azure) via cellular networks. A backend API processes this data, calculating estimated arrival times using algorithms that factor in traffic and routes. A user-friendly mobile application (iOS/Android) fetches this processed data via the API, displaying vehicle locations on a map and predicted arrival times at stops. Technologies: GPS modules, cellular IoT, cloud computing (e.g., AWS Lambda, Google Cloud Functions), RESTful APIs, mobile development frameworks (e.g., React Native, Flutter), mapping services (e.g., OpenStreetMap, Google Maps API).",
+  "feasibility_points": [
+    "GPS technology and mobile network connectivity are readily available and affordable for deployment.",
+    "Cloud computing platforms offer scalable infrastructure at manageable costs for initial setup.",
+    "Open-source mapping and development tools reduce initial investment and accelerate the development cycle."
+  ],
+  "viability_points": [
+    "Improves commuter satisfaction, encouraging higher public transport ridership and local economic activity.",
+    "Attracts potential government grants and aligns with smart city initiatives for funding.",
+    "Offers data-driven insights for transport operators to optimize routes and schedules, reducing operational costs."
+  ],
+  "impact_points": [
+    "Enhances urban mobility, making public transport more efficient, reliable, and attractive for small city residents.",
+    "Contributes to environmental sustainability by reducing private vehicle usage and traffic congestion."
+  ],
+  "beneficiaries": [
+    "Daily commuters will experience reduced wait times, predictable travel, and improved journey planning.",
+    "Public transport operators gain valuable insights for better fleet management and service optimization."
+  ],
+  "original_problem_statement": "Real-Time Public Transport Tracking for Small Cities",
+  "category": "Software"
+}

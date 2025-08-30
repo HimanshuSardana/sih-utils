@@ -1,0 +1,35 @@
+{
+  "need_to_know": "A 'PM Internship Scheme' refers to a program for interns focused on Project Management tasks. An 'AI-Based Smart Allocation Engine' uses artificial intelligence to intelligently match these interns to suitable projects.",
+  "problem_statement": "Manual allocation of Project Management interns to projects is often inefficient, prone to bias, and fails to optimize for specific skills, interests, or project requirements, leading to suboptimal matches and potential dissatisfaction.",
+  "idea": "Develop an AI-powered engine to intelligently match Project Management interns with the most suitable projects based on their skills, interests, and project needs, ensuring optimal placements.",
+  "problem_resolution": "The AI engine leverages machine learning to analyze intern profiles and project requirements, providing data-driven recommendations that enhance matching accuracy, reduce bias, and improve overall internship outcomes significantly.",
+  "usps": [
+    "Automated, data-driven matching reduces manual effort and inherent human bias in the allocation process.",
+    "Optimizes skill alignment between interns and projects, leading to higher intern productivity and faster ramp-up.",
+    "Enhances intern satisfaction and engagement through personalized, interest-based project placements.",
+    "Improves project success rates by ensuring well-suited and motivated talent are assigned efficiently.",
+    "Provides a scalable solution for managing large cohorts of interns effectively and consistently."
+  ],
+  "how_it_works": "The engine utilizes Natural Language Processing (NLP) to parse intern resumes/profiles and project descriptions, extracting key skills, interests, and requirements. A Machine Learning (ML) model, trained on historical data of successful allocations and performance metrics, then calculates compatibility scores between interns and projects. Optimization algorithms (e.g., assignment problems) are applied to generate the most efficient and beneficial match combinations, considering various constraints like project capacity, intern preferences, and skill gaps. The system integrates a user-friendly frontend for input and visualization, a robust backend for data processing, and a secure database to store and manage all profiles and project information. Technologies involved include Python for ML/NLP, various ML libraries (e.g., scikit-learn, TensorFlow/PyTorch), and database management systems (e.g., PostgreSQL).",
+  "feasibility_points": [
+    "Abundant data from past intern applications and project descriptions is available for training AI models.",
+    "Existing robust ML and NLP libraries and frameworks simplify the development of core functionalities.",
+    "Cloud computing platforms offer scalable infrastructure for cost-effective deployment and operation."
+  ],
+  "viability_points": [
+    "Reduces significant administrative time and resources currently spent on manual intern allocation processes.",
+    "Increases intern retention and engagement by ensuring better-aligned and more meaningful project work.",
+    "Provides valuable data-driven insights to continuously refine and improve future internship programs."
+  ],
+  "impact_points": [
+    "Significantly enhances the quality and relevance of the internship experience for all participants.",
+    "Boosts overall project efficiency and success rates by ensuring optimal talent allocation.",
+    "Fosters a more inclusive environment by mitigating unconscious biases in placement decisions."
+  ],
+  "beneficiaries": [
+    "PM Interns benefit from highly relevant project experiences, skill development, and increased satisfaction.",
+    "Project Managers gain well-matched interns who contribute effectively, enhancing project outcomes."
+  ],
+  "original_problem_statement": "Al-Based Smart Allocation Engine for PM Internship Scheme",
+  "category": "Software"
+}

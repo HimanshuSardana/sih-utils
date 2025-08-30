@@ -1,0 +1,34 @@
+{
+  "need_to_know": "KMRL stands for Kochi Metro Rail Limited, a major public transport organization. 'Document Overload' refers to an excessive volume of physical and digital documents, causing inefficiencies in management and retrieval.",
+  "problem_statement": "KMRL faces significant challenges managing a vast volume of documents. This leads to inefficiencies, delays in information retrieval, and increased operational costs. An automated solution is urgently needed.",
+  "idea": "An AI-powered Document Management System (DMS) for KMRL to automate the classification, storage, retrieval, and archiving of all documents, seamlessly integrating with existing workflows.",
+  "problem_resolution": "This AI-DMS will centralize document handling, significantly reduce manual effort, minimize human errors, and accelerate information access, thereby resolving KMRL's core document overload issues.",
+  "usps": [
+    "Intelligent AI for accurate document classification and metadata extraction.",
+    "Seamless integration capabilities with KMRL's existing IT infrastructure.",
+    "Robust security features ensuring data integrity and regulatory compliance.",
+    "Scalable architecture designed to handle future document growth effortlessly.",
+    "User-friendly interface for rapid adoption and minimal training requirements."
+  ],
+  "how_it_works": "The system utilizes Optical Character Recognition (OCR) to convert physical documents into digital, searchable text. Natural Language Processing (NLP) and machine learning algorithms then intelligently classify documents, extract key data (e.g., dates, departments, project codes), and tag them for indexing. Documents are stored in a secure cloud-based repository (e.g., AWS S3, Azure Blob Storage) with version control. Users can quickly search using keywords, categories, or advanced filters. Automation bots can handle routing, approvals, and archiving based on predefined rules. Key technologies involved include Python for backend logic, TensorFlow/PyTorch for ML models, FastAPI/Django for API development, React/Angular for the frontend, and PostgreSQL/MongoDB for the database.",
+  "feasibility_points": [
+    "Existing OCR and NLP technologies are mature and readily available for integration.",
+    "Cloud infrastructure offers scalable, secure, and cost-effective deployment options.",
+    "A modular system design allows for phased implementation and easy integration with current systems."
+  ],
+  "viability_points": [
+    "Significantly reduces operational costs by minimizing manual document processing time.",
+    "Improves regulatory compliance and audit readiness through better document control.",
+    "Increases staff productivity by freeing up time from mundane document tasks."
+  ],
+  "impact_points": [
+    "Transforms KMRL into a more efficient, paperless, and data-driven organization.",
+    "Enhances decision-making processes with faster, more reliable access to critical information."
+  ],
+  "beneficiaries": [
+    "KMRL management and employees will experience streamlined workflows and reduced manual overhead.",
+    "Commuters indirectly benefit from faster project execution and improved service delivery."
+  ],
+  "original_problem_statement": "Document Overload at Kochi Metro Rail Limited (KMRL)-An automated solution",
+  "category": "Software"
+}

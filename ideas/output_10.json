@@ -1,0 +1,35 @@
+{
+  "need_to_know": "Small and Marginal Farmers: Farmers owning less than 2 hectares of land, often with limited resources. Crop Advisory System: Provides guidance and recommendations for various aspects of crop management, from planting to harvesting.",
+  "problem_statement": "Small and marginal farmers lack timely, accurate information on crop management, soil health, and weather. This leads to suboptimal yields, financial losses, and food insecurity due to uninformed agricultural decisions.",
+  "idea": "An AI-powered Smart Crop Advisory System providing personalized, real-time recommendations to small and marginal farmers. It optimizes crop selection, resource management, and pest control for improved yield and income.",
+  "problem_resolution": "This system provides data-driven, localized advice, bridging the information gap for farmers. It optimizes resource use, reduces crop losses, and enhances productivity, leading to increased income and sustainable agricultural practices.",
+  "usps": [
+    "Hyper-localized real-time weather and soil data analysis for precise crop recommendations.",
+    "AI-driven pest and disease identification with integrated, actionable mitigation strategies.",
+    "User-friendly mobile interface supporting multiple local languages for easy accessibility.",
+    "Cost-effective solutions tailored specifically for resource-constrained small and marginal farmers.",
+    "Predictive analytics for optimal crop cycle planning and potential market price forecasts."
+  ],
+  "how_it_works": "The system integrates data from multiple sources: satellite imagery for soil health and crop growth, local weather station APIs for real-time conditions, and farmer-input data. AI and Machine Learning (ML) algorithms process this data to generate personalized recommendations for crop selection, irrigation schedules, nutrient management, and timely pest/disease alerts. Technologies involved include: IoT sensors for collecting soil parameters (moisture, pH, nutrients); Satellite imagery and drone technology for remote sensing of crop health and land analysis; Weather APIs for hyper-local forecasts; Machine Learning models for predictive analytics, disease detection (via image recognition), and recommendation engines; AI for intelligent decision support and personalized advisory; a user-friendly Mobile Application as the interface for farmers to input data and receive advice, potentially with Natural Language Processing (NLP) for voice commands in local languages; and Cloud Computing for scalable data storage and processing.",
+  "feasibility_points": [
+    "Leverages readily available open-source ML frameworks and satellite data APIs.",
+    "High mobile penetration in rural areas enables widespread adoption of the advisory app.",
+    "Low-cost IoT sensors are increasingly accessible for soil and environmental monitoring.",
+    "Existing government digital infrastructure can support data dissemination."
+  ],
+  "viability_points": [
+    "Potential for subscription models or partnerships with agricultural input suppliers.",
+    "Increased farmer income through better yields creates sustainable demand for the service.",
+    "Government and NGO support for agri-tech initiatives provides funding opportunities."
+  ],
+  "impact_points": [
+    "Significant increase in crop yields and reduction in post-harvest losses.",
+    "Empowers farmers with knowledge, leading to improved livelihoods and food security."
+  ],
+  "beneficiaries": [
+    "Small and marginal farmers who gain access to vital, personalized agricultural knowledge.",
+    "Agricultural input suppliers and government agencies benefit from aggregated data insights."
+  ],
+  "original_problem_statement": "Smart Crop Advisory System for Small and Marginal Farmers",
+  "category": "Software"
+}

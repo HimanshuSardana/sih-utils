@@ -1,0 +1,34 @@
+{
+  "need_to_know": "Tampering refers to unauthorized alteration or manipulation of weighing and measuring instruments to achieve false readings, often for fraudulent purposes in trade or industrial processes. This can lead to financial losses or safety risks.",
+  "problem_statement": "Fraudulent activities involving tampered weighing and measuring instruments lead to significant financial losses for businesses and consumers. Current detection methods are often manual, reactive, and insufficient, posing challenges in ensuring fair trade and accurate measurements.",
+  "idea": "Our idea is a real-time, AI-powered IoT monitoring system that detects and prevents tampering in weighing and measuring instruments. It uses sensors and machine learning to identify anomalies, ensuring integrity and promoting fair business practices.",
+  "problem_resolution": "This system proactively monitors instruments, instantly flagging deviations or physical tampering attempts. By providing real-time alerts and data analytics, it significantly reduces fraud, improves accuracy, and ensures compliance, resolving the core problem.",
+  "usps": [
+    "Real-time anomaly detection using advanced AI algorithms for instant alerts.",
+    "Non-invasive sensor integration compatible with various instrument types.",
+    "Predictive analytics to identify potential tampering patterns before they occur.",
+    "Secure, immutable data logging on a blockchain for audit trails.",
+    "Remote monitoring and management through a centralized dashboard."
+  ],
+  "how_it_works": "The system integrates IoT sensors (e.g., accelerometers, strain gauges, temperature sensors, IR sensors for cover detection) with existing weighing/measuring instruments. These sensors continuously collect data. This data is transmitted to an edge device for initial processing and then sent to a cloud platform (e.g., AWS IoT, Azure IoT Hub). Machine learning algorithms, including anomaly detection models (e.g., Isolation Forest, Autoencoders, LSTM for time-series data), are trained on historical normal operating data. When real-time sensor data deviates significantly from established patterns or thresholds, the AI identifies it as potential tampering. Alerts are then sent via SMS, email, or a dashboard. A blockchain ledger (e.g., Hyperledger Fabric or Ethereum) can be used to immutably record all sensor data and tampering events, ensuring data integrity and providing an auditable trail. Cryptographic techniques secure communication between devices and the cloud.",
+  "feasibility_points": [
+    "IoT sensor technology is mature and cost-effective for widespread deployment.",
+    "AI/ML algorithms for anomaly detection are well-established and accessible.",
+    "Cloud infrastructure provides scalable data processing and storage solutions."
+  ],
+  "viability_points": [
+    "High market demand due to significant losses from fraudulent activities.",
+    "Potential for strong partnerships with regulatory bodies and industries.",
+    "Subscription-based service model ensures recurring revenue streams."
+  ],
+  "impact_points": [
+    "Reduces financial losses for businesses and consumers by preventing fraud.",
+    "Enhances trust and transparency in trade, promoting fair market practices."
+  ],
+  "beneficiaries": [
+    "Businesses using weighing and measuring instruments will ensure accurate transactions.",
+    "Consumers will benefit from fair pricing and accurate product quantities."
+  ],
+  "original_problem_statement": "Detection and Prevention of Tampering in Weighing and Measuring instruments",
+  "category": "Hardware"
+}

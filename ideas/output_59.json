@@ -1,0 +1,34 @@
+{
+  "need_to_know": "Aadhaar linked account: A bank account associated with an individual's Aadhaar number for identity verification. DBT enabled Aadhaar seeded bank account: A bank account specifically designated to receive government direct benefit transfers, ensuring funds reach the intended beneficiary through Aadhaar linkage.",
+  "problem_statement": "Students often confuse basic Aadhaar linkage with the specific requirement for a DBT-enabled, Aadhaar-seeded bank account. This confusion leads to issues in receiving critical government benefits and scholarships accurately.",
+  "idea": "Develop an interactive, multilingual mobile application and web portal called \"AadhaarConnect\" to educate students about the crucial differences between Aadhaar-linked and DBT-enabled bank accounts.",
+  "problem_resolution": "AadhaarConnect simplifies complex information using visual guides, FAQs, and interactive quizzes. It clarifies the distinction, helping students set up their accounts correctly to ensure seamless reception of government benefits.",
+  "usps": [
+    "Interactive learning modules with quizzes to reinforce understanding.",
+    "Multilingual support to cater to diverse student populations.",
+    "Personalized guidance based on user input for specific scenarios.",
+    "Direct links to official government resources and bank helplines.",
+    "Offline access to key information for remote users."
+  ],
+  "how_it_works": "The \"AadhaarConnect\" platform would consist of a mobile application (iOS and Android) and a web portal. Users would register and then access interactive modules featuring animated videos, infographics, and text-based explanations clearly differentiating \"Aadhaar linked\" (general verification) and \"DBT enabled Aadhaar seeded\" (for government direct benefits). Short quizzes after each module test understanding. A \"My Account Status\" checker feature would guide students on how to verify their bank's Aadhaar-DBT linking status, potentially by redirecting to official NPCI or bank portals. A comprehensive FAQ section and an AI-powered chatbot would answer common queries. A resource hub would provide links to official government websites (e.g., NPCI, UIDAI) and bank customer service. The technology stack would involve React Native/Flutter for mobile, React/Angular/Vue for web frontend, Node.js/Python (Django/Flask) for backend, PostgreSQL/MongoDB for database, AWS/Azure/GCP for cloud hosting, and Dialogflow or a custom NLP model for the chatbot.",
+  "feasibility_points": [
+    "Leverages existing government APIs and publicly available information for accuracy.",
+    "Development can be agile, starting with core educational features and iterating.",
+    "Minimal operational cost by focusing on digital distribution and self-service."
+  ],
+  "viability_points": [
+    "High demand for clear, accessible information among students accessing benefits.",
+    "Potential for partnerships with educational institutions and financial institutions.",
+    "Reduces administrative burden on government by empowering student self-service."
+  ],
+  "impact_points": [
+    "Empowers students to confidently manage their financial benefits and avoid payment issues.",
+    "Reduces instances of delayed or denied government scheme disbursals for students."
+  ],
+  "beneficiaries": [
+    "Students applying for scholarships, stipends, or other government welfare schemes.",
+    "Government agencies aiming for efficient, transparent, and error-free DBT delivery."
+  ],
+  "original_problem_statement": "Enhancing Student Awareness on difference between Aadhaar linked and Direct Beneficiary Transfer(DBT) enabled Aadhaar seeded bank account.",
+  "category": "Software"
+}

@@ -1,0 +1,38 @@
+{
+  "need_to_know": "Panchakarma refers to a set of five therapeutic treatments in Ayurveda for detoxification and rejuvenation. It involves complex, individualized therapy regimens. AyurSutra is the proposed software name.",
+  "problem_statement": "Ayurvedic Panchakarma clinics often struggle with manual patient management, therapy scheduling, and resource allocation, leading to inefficiencies and potential errors in patient care.",
+  "idea": "AyurSutra is a comprehensive software designed to streamline Panchakarma patient management and therapy scheduling, enhancing efficiency and patient experience for Ayurvedic clinics.",
+  "problem_resolution": "AyurSutra automates patient record keeping, personalizes therapy scheduling, and optimizes resource allocation, solving the complexities of manual management and improving operational flow for clinics.",
+  "usps": [
+    "Customizable Panchakarma therapy protocols for individualized patient care plans.",
+    "Integrated patient history and progress tracking with secure, easy access.",
+    "Automated scheduling for therapists, rooms, and resources to prevent conflicts.",
+    "Secure cloud-based data storage ensuring accessibility and data integrity.",
+    "Intuitive user interface designed for quick adoption by clinic staff."
+  ],
+  "how_it_works": "AyurSutra will be a web-based application, potentially with mobile access. It will utilize a modern frontend framework (e.g., React or Angular) for a dynamic user interface and a robust backend (e.g., Node.js or Python/Django) to manage data and logic. A relational database (e.g., PostgreSQL) will store patient records, therapy protocols, scheduling data, and resource information. Key functionalities include patient registration, medical history input, therapy prescription based on Ayurvedic principles, an intelligent scheduling algorithm that considers therapist availability, room occupancy, and equipment needs, inventory management for Ayurvedic products, and comprehensive reporting tools for clinic performance. All data will be securely hosted in a cloud environment.",
+  "feasibility_points": [
+    "Modern web technologies and cloud infrastructure are readily available for development.",
+    "Open-source libraries for scheduling and database management can accelerate development.",
+    "A skilled development team can build the core functionalities efficiently.",
+    "Scalable cloud services allow for future growth without extensive hardware investment.",
+    "Standardized APIs can facilitate integration with existing systems if required."
+  ],
+  "viability_points": [
+    "Growing global demand for organized Ayurvedic healthcare solutions.",
+    "Addresses a critical pain point for Panchakarma centers improving efficiency.",
+    "Subscription-based model ensures recurring revenue and scalability.",
+    "Low barrier to entry for clinics, offering immediate operational benefits.",
+    "Potential for market expansion to broader Ayurvedic practice management."
+  ],
+  "impact_points": [
+    "Significantly improves operational efficiency and reduces administrative burden for clinics.",
+    "Enhances patient experience through personalized, well-organized, and timely care."
+  ],
+  "beneficiaries": [
+    "Panchakarma clinics and Ayurvedic practitioners gain streamlined operations.",
+    "Patients receive better, more organized, and personalized treatment plans."
+  ],
+  "original_problem_statement": "AyurSutra- Panchakarma Patient Management and therapy scheduling Software",
+  "category": "Software"
+}

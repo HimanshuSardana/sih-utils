@@ -1,0 +1,34 @@
+{
+  "need_to_know": "Automated Attendance System: A system that records student presence without manual intervention, using technology. Rural Schools: Schools located in non-urban, often remote areas, which may lack modern infrastructure or resources.",
+  "problem_statement": "Rural schools often struggle with accurate, timely attendance tracking due to manual processes, limited staff, and geographical challenges. This leads to inefficient data collection, delayed reporting, and difficulty identifying at-risk students.",
+  "idea": "Develop an affordable, robust Automated Attendance System tailored for rural schools. It will leverage simple, reliable technology to streamline attendance, provide real-time data, and improve administrative efficiency.",
+  "problem_resolution": "This system eliminates manual attendance burdens, ensures accurate records, and provides instant insights into student presence. It helps schools proactively address absenteeism, improving educational outcomes and resource allocation in rural settings.",
+  "usps": [
+    "Designed for budget-constrained rural environments, using durable, affordable hardware and software.",
+    "Functions reliably without constant internet, storing data locally and syncing when connectivity is available.",
+    "Simple installation and intuitive interface requiring minimal technical expertise from school staff.",
+    "Provides options for local language interfaces to enhance user accessibility and acceptance.",
+    "Can integrate SMS alerts to inform parents about their child's attendance status."
+  ],
+  "how_it_works": "The system uses a combination of low-cost hardware and open-source software. Each student is issued an RFID (Radio-Frequency Identification) card. An RFID reader is installed at the school entrance/classroom. As students tap their cards, the reader captures their unique ID and timestamp. This data is stored locally on a Raspberry Pi or similar micro-controller. The Raspberry Pi runs a custom Python script or a simple web application (using Flask/Django) to manage data. When internet connectivity is available, the local data is synced to a cloud database (e.g., Firebase, AWS S3, or a custom SQL server) for central reporting and analytics. Teachers and administrators can access real-time attendance dashboards via a simple web interface on a tablet or computer. For areas with very limited power, a solar charging option for the device could be included. Technologies involved: RFID (readers, tags), Raspberry Pi (or ESP32/Arduino for lower cost), Python, SQLite (for local storage), Cloud database (e.g., Firebase/PostgreSQL), basic web framework (e.g., Flask), SMS Gateway API for notifications.",
+  "feasibility_points": [
+    "Components like RFID readers, cards, and Raspberry Pi are widely available and cost-effective.",
+    "Utilizes free, open-source platforms and programming languages, reducing development costs significantly.",
+    "Designed to operate with limited internet and power, leveraging offline capabilities and basic hardware."
+  ],
+  "viability_points": [
+    "Addresses a critical need for efficient attendance tracking in numerous underserved rural schools.",
+    "Easily replicable across multiple schools with minor adaptations, ensuring broad applicability.",
+    "Low maintenance requirements and potential for local support networks ensure long-term operation."
+  ],
+  "impact_points": [
+    "Accurate data helps identify absenteeism trends, enabling timely interventions to keep students in school.",
+    "Reduces administrative burden on teachers, allowing them to focus more on teaching and less on paperwork."
+  ],
+  "beneficiaries": [
+    "Rural School Administrators/Teachers: Gain accurate data, reduced manual work, and better insights into student attendance.",
+    "Students & Parents: Ensures consistent tracking of student presence, fostering accountability and enabling proactive communication."
+  ],
+  "original_problem_statement": "Automated Attendance System for Rural Schools",
+  "category": "Software"
+}

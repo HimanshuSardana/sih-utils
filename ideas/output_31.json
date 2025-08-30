@@ -1,0 +1,36 @@
+{
+  "need_to_know": "Crowdsourced means gathering input from a large group of people. Civic issues refer to problems affecting public welfare, such as potholes, waste management, or broken infrastructure in a community.",
+  "problem_statement": "Local communities struggle with efficiently reporting and resolving civic issues. Current methods are often slow, fragmented, and lack transparency, leading to delayed action and public frustration, hindering effective urban management.",
+  "idea": "To develop an intuitive, mobile-first, crowdsourced platform where citizens can easily report local civic issues. This system will streamline reporting, enable real-time tracking of resolution, and improve communication between citizens and authorities.",
+  "problem_resolution": "This system centralizes issue reporting, allowing citizens to quickly flag problems. It routes reports to relevant authorities, improves transparency, and facilitates faster, more accountable resolution, enhancing civic engagement and local governance.",
+  "usps": [
+    "Real-time issue reporting with geo-tagging and multimedia uploads for accuracy.",
+    "Transparent tracking of issue status from report submission to final resolution.",
+    "Direct communication channel between citizens and local government departments.",
+    "Community upvoting and commenting features to prioritize urgent or widespread issues.",
+    "Data-driven insights for proactive urban planning and efficient resource allocation."
+  ],
+  "how_it_works": "Users download a mobile application to report civic issues. They can capture photos or videos, add a description, and automatically geo-tag the location using their phone's GPS. This report is then securely transmitted to a cloud-based backend. Leveraging AI and Machine Learning algorithms, the system categorizes the issue (e.g., waste, infrastructure, public safety) and automatically routes it to the appropriate municipal department or agency. Local authorities access a dedicated web-based dashboard to view, manage, assign, and update the status of reported issues. Citizens receive real-time notifications on the progress and resolution of their reported issues, fostering transparency. Technologies involved include: mobile app development frameworks (e.g., React Native, Flutter) for cross-platform compatibility, GPS for precise location tracking, cloud computing platforms (e.g., AWS, Azure, GCP) for scalable infrastructure, AI/ML for intelligent issue categorization and routing, RESTful APIs for communication between front-end and back-end, and a robust database (e.g., PostgreSQL) for data storage.",
+  "feasibility_points": [
+    "Existing mobile and cloud technologies make platform development straightforward and cost-effective.",
+    "GPS and camera integration are standard features on modern smartphones, ensuring widespread accessibility.",
+    "Leveraging open-source mapping and communication APIs can reduce development time and costs.",
+    "Scalability of cloud infrastructure supports handling a growing user base and data volume."
+  ],
+  "viability_points": [
+    "Addresses a universal urban problem, ensuring broad user adoption potential and significant impact.",
+    "Partnerships with local governments provide official backing, data access, and a clear path to market.",
+    "Can scale to multiple cities or regions, offering a sustainable and expanding business model.",
+    "Data collected can be monetized through urban planning insights or targeted local advertising."
+  ],
+  "impact_points": [
+    "Fosters a more engaged and empowered citizenry, significantly improving overall community well-being.",
+    "Increases the efficiency, accountability, and responsiveness of local government services."
+  ],
+  "beneficiaries": [
+    "Citizens: Gain an easy, transparent, and direct way to report and track local problems.",
+    "Local Authorities: Receive structured, prioritized, and real-time data for efficient issue management."
+  ],
+  "original_problem_statement": "Crowdsourced Civic lssue Reporting and Resolution System",
+  "category": "Software"
+}

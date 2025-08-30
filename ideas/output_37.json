@@ -1,0 +1,35 @@
+{
+  "need_to_know": "Sand grain size mapping is crucial for understanding beach erosion, sediment transport, and coastal stability. Current methods are often manual, labor-intensive, and expensive, hindering comprehensive analysis.",
+  "problem_statement": "Current beach sand grain size mapping is manual, labor-intensive, and costly. This limits comprehensive coastal monitoring and effective erosion management efforts worldwide.",
+  "idea": "Our idea is a low-cost, camera-based automated system for beach sand grain size mapping. It uses computer vision and AI to quickly and efficiently analyze sand samples in situ.",
+  "problem_resolution": "This system automates sand grain size analysis, significantly reducing manual effort and cost. It provides rapid, scalable data for better coastal erosion and sediment transport management decisions.",
+  "usps": [
+    "Significantly reduces costs associated with traditional lab-based sand grain analysis methods.",
+    "Automates the entire mapping process, saving substantial time and labor for researchers.",
+    "Provides real-time data, enabling quicker decision-making for effective coastal management.",
+    "Utilizes standard, readily available cameras, making the system accessible and easily deployable.",
+    "Non-invasive and environmentally friendly, eliminating the need for physical sample collection."
+  ],
+  "how_it_works": "The system involves a standard digital camera to capture high-resolution images of beach sand directly on site. These images are then processed using advanced computer vision techniques and machine learning algorithms. Image processing identifies individual sand grains, segmenting them from the background, and accurately calculates their size, shape, and distribution. Technologies involved include image acquisition (using off-the-shelf digital cameras), image segmentation (e.g., using algorithms like Otsu's method or more advanced deep learning models), object detection and analysis (e.g., contour detection and measurement in OpenCV, or custom Convolutional Neural Networks trained on sand grain datasets), and statistical analysis to map grain sizes across an area. The processed data can then be visualized, integrated into Geographic Information Systems (GIS), and used to generate detailed grain size distribution maps.",
+  "feasibility_points": [
+    "Leverages readily available camera hardware and robust open-source computer vision libraries.",
+    "AI/ML models for image analysis are well-established and adaptable for this specific task.",
+    "Proof-of-concept can be developed quickly with existing image processing expertise and tools."
+  ],
+  "viability_points": [
+    "There is high demand from coastal researchers and environmental agencies for efficient data collection.",
+    "Offers significant cost savings over traditional lab-based analysis, attracting a wide user base.",
+    "The solution is scalable and applicable to diverse beach environments and coastal regions globally.",
+    "impact_points"
+  ],
+  "impact_points": [
+    "Improves coastal erosion monitoring and management strategies, vital for climate change adaptation.",
+    "Provides essential data for environmental protection, contributing to sustainable coastal development."
+  ],
+  "beneficiaries": [
+    "Coastal scientists and researchers will gain access to rapid, accurate, and extensive data sets.",
+    "Government agencies and environmental organizations will enhance their coastal management capabilities."
+  ],
+  "original_problem_statement": "Development of a low-cost camera-based automated beach sand grain size mapping system",
+  "category": "Hardware"
+}

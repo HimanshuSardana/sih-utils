@@ -1,0 +1,36 @@
+{
+  "need_to_know": "Blockchain: A decentralized, secure digital ledger for recording transactions. Botanical traceability: The ability to track the origin and journey of plant materials. Ayurvedic herbs: Medicinal plants used in traditional Indian medicine. Geo-tagging: Adding geographical identification metadata to digital information.",
+  "problem_statement": "Lack of transparency in the Ayurvedic herb supply chain makes verifying authenticity and origin challenging. This system aims to track herbs from collection to final product, ensuring consumer trust.",
+  "idea": "A blockchain-based botanical traceability system for Ayurvedic herbs. It geo-tags collection points and tracks the herb's journey from farmer/collector to the final formulation label, ensuring authenticity and transparency.",
+  "problem_resolution": "This system leverages blockchain's immutable ledger to record every step of the herb's journey, from geo-tagged collection to manufacturing. It ensures unparalleled transparency, verifies authenticity, and builds consumer trust.",
+  "usps": [
+    "Ensures immutable and transparent records of the herb's entire supply chain.",
+    "Geo-tagging at the point of collection guarantees verifiable origin for all herbs.",
+    "Significantly enhances consumer trust by providing proof of authenticity.",
+    "Combats counterfeiting and adulteration, safeguarding product integrity.",
+    "Streamlines regulatory compliance and quality assurance processes for manufacturers."
+  ],
+  "how_it_works": "The system begins at the point of collection, where farmers or wild collectors use a mobile application to geo-tag the location, photograph the herbs, and record essential details like collection date and quantity. This information is then hashed and securely added as a new block to the blockchain. As the herbs move through the supply chain \u2013 to drying centers, processing units, and finally to Ayurvedic manufacturers \u2013 each handoff and processing step is recorded. QR codes or NFC tags can be affixed to batches, linking physical products to their digital blockchain records. Manufacturers scan these tags upon receipt, verifying the herb's origin and journey, and then record its integration into specific formulations. The final Ayurvedic product label will feature a scannable QR code, allowing consumers to access the complete, verified history of the herbs used in that product. Technologies involved include a distributed ledger technology (DLT) such as Hyperledger Fabric or a private Ethereum blockchain for its immutability and smart contract capabilities, GPS/IoT devices for precise geo-tagging and environmental data collection, and mobile applications for user-friendly data entry at various stages.",
+  "feasibility_points": [
+    "Existing blockchain infrastructure and geo-tagging technologies are mature and readily implementable.",
+    "Developing user-friendly mobile applications for data entry by collectors and manufacturers is straightforward.",
+    "Strategic partnerships with herb collectors, processors, and Ayurvedic companies can facilitate pilot projects.",
+    "The core technological components are already available and well-understood."
+  ],
+  "viability_points": [
+    "Growing consumer demand for authentic, transparent, and ethically sourced Ayurvedic products.",
+    "Offers a significant competitive advantage to manufacturers adopting the system, attracting premium customers.",
+    "Reduces legal and reputational risks associated with product fraud or mislabeling for businesses.",
+    "Potential for generating revenue through subscription models or transaction fees for participating entities."
+  ],
+  "impact_points": [
+    "Increases consumer confidence in Ayurvedic medicines by guaranteeing purity, origin, and ethical sourcing.",
+    "Empowers farmers and wild collectors by ensuring fair recognition and potentially better pricing for their verified produce."
+  ],
+  "beneficiaries": [
+    "Consumers: Gain complete trust in the authenticity and quality of Ayurvedic products they purchase.",
+    "Ayurvedic Manufacturers: Ensure high-quality raw materials, enhance brand reputation, and meet regulatory standards."
+  ],
+  "original_problem_statement": "Develop a blockchain-based system for botanical traceability of Ayurvedic herbs, including geo-tagging from the point of collection (farmers/wild collectors) to the final Ayurvedic formulation label.",
+  "category": "Software"
+}

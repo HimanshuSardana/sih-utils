@@ -1,0 +1,34 @@
+{
+  "need_to_know": "Crowdsourced Ocean Hazard Reporting allows users to report marine dangers. Social Media Analytics involves AI scanning platforms for hazard mentions, trends, and sentiment, providing supplementary real-time insights.",
+  "problem_statement": "Fragmented ocean hazard reporting and lack of real-time, integrated social media insights hinder effective response. This causes delayed action and incomplete understanding of marine risks, jeopardizing safety and environmental health.",
+  "idea": "Develop 'OceanWatch,' an integrated platform for real-time crowdsourced ocean hazard reporting combined with AI-powered social media analytics. It aims to detect, verify, and disseminate marine threat information rapidly.",
+  "problem_resolution": "OceanWatch centralizes hazard data from multiple sources, providing authorities with a real-time, comprehensive overview. This enables quicker response, better resource allocation, and informed decision-making for marine safety and environmental protection.",
+  "usps": [
+    "Real-time, geo-tagged hazard reporting directly from users via mobile or web.",
+    "AI-driven social media monitoring for early detection of emerging marine threats.",
+    "Integrated dashboard offering comprehensive data visualization for authorities.",
+    "Proactive alert system for coastal communities regarding impending dangers.",
+    "Data-driven insights for trend analysis and predictive modeling of hazards."
+  ],
+  "how_it_works": "Users report hazards via a mobile app or web portal with location, photos, and descriptions. This data is stored in a cloud database. A social media crawler continuously scrapes platforms (e.g., Twitter, Instagram, Reddit) for keywords related to ocean hazards. Natural Language Processing (NLP) models analyze text for sentiment, entities, and topics. Machine learning algorithms correlate crowdsourced reports with social media findings to verify and prioritize threats. A web-based dashboard displays real-time hazard maps, trend graphs, and sends push notifications/SMS alerts to relevant stakeholders and the public. Technologies involved: Mobile development (React Native/Flutter), Web development (React/Node.js), Cloud platforms (AWS/Azure/GCP for hosting, databases like PostgreSQL/MongoDB), AI/ML libraries (TensorFlow/PyTorch, scikit-learn, spaCy), Social media APIs, geospatial libraries (Leaflet/Mapbox).",
+  "feasibility_points": [
+    "Leverages widespread smartphone use and readily available cloud computing infrastructure.",
+    "Utilizes established open-source AI/ML frameworks and social media APIs.",
+    "Modular design allows for incremental development and feature expansion."
+  ],
+  "viability_points": [
+    "Addresses a critical global need for enhanced marine safety and environmental monitoring.",
+    "Potential for partnerships with governments, NGOs, and research institutions for funding.",
+    "Scalable model; data valuable for insurance, shipping, and tourism industries."
+  ],
+  "impact_points": [
+    "Significantly improves marine safety and facilitates rapid environmental hazard response.",
+    "Empowers citizens to actively participate in ocean stewardship and protection efforts."
+  ],
+  "beneficiaries": [
+    "Coastal communities, fishermen, and recreational ocean users benefit from early warnings.",
+    "Environmental agencies, maritime authorities, and researchers gain crucial real-time data."
+  ],
+  "original_problem_statement": "Integrated Platform for Crowdsourced Ocean Hazard Reporting and Social Media Analytics",
+  "category": "Software"
+}

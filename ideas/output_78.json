@@ -1,0 +1,34 @@
+{
+  "need_to_know": "LT lines refer to Low Tension electrical lines, typically used for local power distribution to homes and businesses. A circuit breaker is a safety device that automatically interrupts an electrical circuit in case of an overload or short circuit; the problem suggests its limitations in detecting physical line breaks.",
+  "problem_statement": "The challenge is to develop a software-based solution beyond traditional circuit breakers to accurately detect and rapidly shut off broken Low Tension (LT) electrical lines, enhancing safety and minimizing hazards.",
+  "idea": "A smart grid monitoring system leveraging IoT sensors and AI to detect LT line breaks instantaneously and automate selective power shutdown, thereby improving public safety and grid reliability.",
+  "problem_resolution": "Our system employs distributed IoT sensors and AI analytics for real-time line break detection. This enables immediate, targeted power isolation of the faulty segment, preventing hazards and reducing outage impact more efficiently than existing solutions.",
+  "usps": [
+    "Real-time, granular fault detection for immediate response and enhanced safety.",
+    "Predictive analytics to anticipate potential line failures, enabling proactive maintenance.",
+    "Automated, selective power isolation, minimizing the scope of outages and impacts.",
+    "Remote monitoring and control capabilities for efficient grid management.",
+    "Increased public and operational safety by rapidly de-energizing broken lines."
+  ],
+  "how_it_works": "The system deploys a network of IoT sensors, including current, voltage, vibration, and acoustic sensors, along Low Tension (LT) electrical lines. These sensors continuously collect electrical and environmental data, which is then transmitted wirelessly (e.g., via LoRaWAN, 5G, or NB-IoT) to a centralized cloud-based platform. Machine learning algorithms, such as anomaly detection models (e.g., Isolation Forest, One-Class SVM) or deep learning models (e.g., LSTMs for time series analysis), analyze this real-time data to identify patterns indicative of a line break (e.g., sudden current drops, atypical voltage fluctuations, specific acoustic signatures). Upon confirmed detection, the system automatically triggers an alert and sends a command to smart switches or remotely controllable disconnect switches within the grid. These devices then isolate the affected LT line segment, effectively and safely turning off power to the broken line. Edge computing could be integrated to perform preliminary data processing, reducing latency and improving response times.",
+  "feasibility_points": [
+    "IoT sensor technology is widely available and cost-effective for large-scale deployment.",
+    "Cloud computing platforms provide scalable infrastructure for real-time data processing and AI/ML model execution.",
+    "Robust wireless communication protocols (e.g., LoRaWAN, 5G) ensure reliable data transmission across vast areas."
+  ],
+  "viability_points": [
+    "Reduces significant public safety risks, leading to fewer accidents and legal liabilities for utilities.",
+    "Minimizes power outage durations, improving service reliability and customer satisfaction.",
+    "Lowers operational costs through predictive maintenance and reduced manual fault identification and repair."
+  ],
+  "impact_points": [
+    "Significantly enhances public safety by preventing electrocution and fire hazards from live, broken electrical lines.",
+    "Boosts grid resilience and reduces power outage durations for consumers and businesses, ensuring reliable supply."
+  ],
+  "beneficiaries": [
+    "Utility companies will benefit from improved safety records, reduced operational costs, and enhanced grid management efficiency.",
+    "The general public and businesses will benefit from increased safety, fewer power outages, and a more reliable electricity supply."
+  ],
+  "original_problem_statement": "Software other than a circuit breaker that can be used to detect and turn off LT lines when the line breaks",
+  "category": "Software"
+}

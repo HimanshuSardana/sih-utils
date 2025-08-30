@@ -1,0 +1,34 @@
+{
+  "need_to_know": "Democratizing sports talent assessment means making objective evaluation accessible to all, irrespective of location or background. An AI-powered mobile platform uses artificial intelligence via smartphones for this analysis.",
+  "problem_statement": "Current sports talent assessment is often biased, geographically limited, and lacks objective data. Many talented individuals from underserved areas are overlooked, hindering their potential due to limited access and subjective evaluations.",
+  "idea": "An AI-powered mobile platform offers objective, accessible sports talent assessment. It uses computer vision and machine learning to analyze athlete performance from video submissions, identifying potential globally, fostering inclusivity.",
+  "problem_resolution": "This platform democratizes talent scouting by providing an unbiased, standardized assessment tool. It reaches underserved communities, ensuring every aspiring athlete has a fair chance to be discovered and developed based on merit.",
+  "usps": [
+    "Objective AI analysis eliminates human bias in talent evaluation.",
+    "Global accessibility allows talent discovery in remote areas.",
+    "Cost-effective solution reduces traditional scouting expenses.",
+    "Standardized metrics ensure fair comparison across all athletes.",
+    "Personalized feedback and training insights for athletes."
+  ],
+  "how_it_works": "Athletes record and upload performance videos via a mobile app. The platform uses AI, specifically computer vision and machine learning algorithms, to analyze body movements, technique, speed, agility, and other sport-specific metrics. Data is processed in the cloud, and objective performance scores and detailed feedback are generated. Technologies involved include mobile app development (iOS/Android), cloud computing (AWS/Azure/GCP), computer vision libraries (OpenCV, TensorFlow/PyTorch), and machine learning models for performance analytics and predictive modeling.",
+  "feasibility_points": [
+    "Mature mobile technology and readily available AI tools simplify development.",
+    "Scalable cloud infrastructure provides robust processing for video analysis.",
+    "Widespread smartphone penetration ensures broad user access globally."
+  ],
+  "viability_points": [
+    "Subscription models for athletes, coaches, and sports organizations.",
+    "Partnerships with sports federations and clubs for talent scouting.",
+    "Data licensing to sports analytics firms and recruitment agencies."
+  ],
+  "impact_points": [
+    "Creates a more equitable, inclusive, and diverse global sports ecosystem.",
+    "Unlocks hidden talent potential, boosting sports performance worldwide."
+  ],
+  "beneficiaries": [
+    "Aspiring athletes, especially from underserved regions, gain fair assessment.",
+    "Sports organizations, scouts, and coaches find diverse, high-potential talent."
+  ],
+  "original_problem_statement": "Al-Powered Mobile Platform for Democratizing Sports Talent Assessment",
+  "category": "Software"
+}

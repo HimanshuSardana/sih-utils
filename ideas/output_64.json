@@ -1,0 +1,34 @@
+{
+  "need_to_know": "Renewable Energy (RE) hosting capacity is the maximum RE a grid can integrate without issues. Distribution Feeders are local power lines from substations to consumers. Power quality refers to stable voltage and frequency. High RE injection means large amounts of RE entering the grid, potentially causing instability.",
+  "problem_statement": "The grid struggles to host more renewable energy due to power quality issues. High RE injection causes voltage instability, hindering increased adoption of clean energy in distribution networks.",
+  "idea": "A \"Smart Grid Adaptive Control System\" using real-time data and AI to dynamically manage renewable energy integration and optimize distribution feeder operations for enhanced power quality.",
+  "problem_resolution": "This system actively monitors grid conditions and adjusts RE injection, ensuring stable voltage and frequency. It maximizes hosting capacity by mitigating power quality disturbances from intermittent renewable sources.",
+  "usps": [
+    "Real-time AI-driven optimization enhances grid stability and efficiency.",
+    "Maximizes renewable energy integration without costly infrastructure upgrades.",
+    "Predictive analytics prevent power quality issues before they occur.",
+    "Modular design allows for scalable deployment across diverse feeders.",
+    "Reduces operational costs through automated grid management and control."
+  ],
+  "how_it_works": "The system utilizes IoT sensors for real-time data collection (voltage, current, frequency, RE generation, weather). This data feeds into a central AI/ML model (e.g., reinforcement learning, predictive algorithms) running on edge computing devices or a secure cloud platform. The AI analyzes current grid conditions, predicts potential power quality issues from high RE injection events, and dispatches precise control commands. These commands manage Distributed Energy Resources (DERs) like solar inverters (e.g., reactive power control, curtailment), battery energy storage systems (optimal charging/discharging cycles), and smart load control. Communication between sensors, AI, and DERs uses secure, low-latency protocols such as Modbus TCP/IP, MQTT, or even 5G, ensuring timely responses. Blockchain technology could also be integrated for transparent and immutable data logging and transactions.",
+  "feasibility_points": [
+    "Existing smart meter infrastructure provides necessary real-time grid data.",
+    "Advancements in AI/ML enable complex real-time decision-making for grid control.",
+    "Proven IoT sensor and secure communication technologies are readily available for deployment."
+  ],
+  "viability_points": [
+    "Reduces need for expensive traditional grid upgrades, offering significant cost savings for utilities.",
+    "Increases grid reliability and efficiency, lowering outage costs and improving service continuity.",
+    "Supports renewable energy mandates and decarbonization goals, attracting investment and policy support."
+  ],
+  "impact_points": [
+    "Accelerates the transition to sustainable energy by significantly boosting renewable integration capacity.",
+    "Enhances overall grid resilience and reliability for all energy consumers."
+  ],
+  "beneficiaries": [
+    "Utility companies benefit from optimized operations, reduced maintenance, and improved asset utilization.",
+    "Consumers gain from a more stable, reliable, and cleaner power supply with fewer disruptions."
+  ],
+  "original_problem_statement": "Improving the Renewable Energy hosting capacity in Distribution Feeders improving the Power quality of Distribution network during high RE injection",
+  "category": "Hardware"
+}

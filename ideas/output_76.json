@@ -1,0 +1,36 @@
+{
+  "need_to_know": "AI (Artificial Intelligence) refers to technology that simulates human intelligence, enabling systems to learn, reason, and solve problems. An advisory system provides expert guidance and recommendations, tailored to specific needs.",
+  "problem_statement": "Farmers often lack timely access to expert agricultural advice, leading to suboptimal decisions regarding crop management, pest control, and resource allocation. This results in reduced yields and financial losses for smallholder farmers.",
+  "idea": "Develop an AI-powered conversational platform that provides instant, personalized, and accurate agricultural advice to farmers, addressing their specific queries regarding crops, soil, weather, and pest management.",
+  "problem_resolution": "This AI system offers immediate, tailored advice, bridging the information gap for farmers. It ensures quick access to expert knowledge, helping them make informed decisions to improve productivity and reduce losses.",
+  "usps": [
+    "Instant, 24/7 access to agricultural expertise via multiple communication channels.",
+    "Personalized advice tailored to specific crop, soil, and local weather conditions.",
+    "Multilingual support, breaking language barriers for diverse farming communities.",
+    "Proactive alerts for potential issues like pest outbreaks or adverse weather events.",
+    "Continuous learning and improvement based on farmer interactions and new agricultural data."
+  ],
+  "how_it_works": "The system leverages Natural Language Processing (NLP) to understand farmer queries in various local languages. Machine Learning (ML) algorithms, trained on vast agricultural datasets (crop science, soil data, weather patterns, pest databases), process these queries to generate relevant advice. Data sources include agricultural research, meteorological data, satellite imagery, and localized farm input prices. When a farmer asks a question, the NLP module interprets it, the ML model retrieves the most appropriate information, and the system delivers a tailored response via text or voice. Computer Vision could also be integrated for image-based diagnostics (e.g., identifying crop diseases).",
+  "feasibility_points": [
+    "Availability of open-source AI frameworks (e.g., TensorFlow, PyTorch) and cloud computing.",
+    "Growing accessibility of agricultural data for training robust AI models efficiently.",
+    "Existing mobile communication infrastructure supports widespread farmer reach and adoption."
+  ],
+  "viability_points": [
+    "Potential for subscription models or partnerships with agricultural input companies.",
+    "Scalability to serve millions of farmers across diverse regions and crop types effectively.",
+    "Reduces reliance on expensive, scarce human agricultural extension workers significantly.",
+    "impact_points"
+  ],
+  "impact_points": [
+    "Significantly increases crop yields and farmer income through informed decision-making.",
+    "Promotes sustainable farming practices by providing eco-friendly recommendations.",
+    "beneficiaries"
+  ],
+  "beneficiaries": [
+    "Smallholder farmers gain access to critical knowledge, improving their livelihoods and food security.",
+    "Agricultural extension services can augment their reach, efficiency, and data collection capabilities."
+  ],
+  "original_problem_statement": "AI-Based Farmer Query Support and Advisory System",
+  "category": "Software"
+}

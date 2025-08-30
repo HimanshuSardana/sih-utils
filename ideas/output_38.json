@@ -1,0 +1,34 @@
+{
+  "need_to_know": "Blue Carbon refers to carbon captured by ocean and coastal ecosystems. A Registry is a system for tracking carbon credits. MRV (Monitoring, Reporting, Verification) is the process of measuring, reporting, and independently verifying carbon sequestration claims. Blockchain is a decentralized, immutable ledger for secure and transparent data.",
+  "problem_statement": "Current blue carbon MRV and registry systems often lack transparency, suffer from double-counting, and have high transaction costs. Verifying claims and ensuring credit integrity is challenging, hindering market growth and trust in climate action.",
+  "idea": "Develop a blockchain-based platform for a blue carbon registry and MRV system to ensure transparent, immutable, and verifiable tracking of blue carbon credits, enhancing trust and efficiency.",
+  "problem_resolution": "Our blockchain solution resolves transparency issues and double-counting by creating an immutable ledger. It streamlines MRV processes, reduces verification costs, and builds trust, accelerating blue carbon market growth for climate action.",
+  "usps": [
+    "Enhanced transparency: All data and transactions are publicly auditable on the blockchain, fostering trust.",
+    "Immutability & security: Data cannot be altered once recorded, preventing fraud and ensuring data integrity.",
+    "Reduced double-counting: Unique tokenization of carbon credits on the blockchain eliminates duplicate claims.",
+    "Streamlined MRV: Automates data collection and verification, reducing manual effort and costs.",
+    "Global accessibility: Provides a universally accessible, decentralized platform for blue carbon project participation."
+  ],
+  "how_it_works": "The system leverages a blockchain network (e.g., Ethereum, Polygon, Hyperledger Fabric). Blue carbon project data (e.g., mangrove restoration, seagrass beds) is collected using IoT sensors, satellite imagery, and on-site measurements. This raw data undergoes initial processing and is then hashed and recorded as transactions on the blockchain. Independent verifiers (third-party auditors) review the submitted data and confirm the carbon sequestration, minting blue carbon tokens (NFTs or fungible tokens) representing verified carbon credits. Each token is unique and traceable. Smart contracts automate the minting, transfer, and retirement of these tokens based on predefined rules, ensuring compliance and preventing double-spending. Users can access the registry via a web interface to view project details, carbon credit status, and transaction history. Technologies involved include: Blockchain for decentralized ledger, immutability, and smart contracts; Smart Contracts for automating verification, minting, and transfer logic; IoT Sensors for continuous, real-time data collection from ecosystems; Satellite Imagery & GIS for monitoring large-scale changes and project boundaries; Decentralized Storage (e.g., IPFS) for storing large raw data files off-chain while linking hashes on-chain; Web3 Frontend for user interaction with the blockchain.",
+  "feasibility_points": [
+    "Existing blockchain frameworks offer robust infrastructure for ledger and smart contracts.",
+    "IoT and satellite technology for environmental monitoring are mature and accessible.",
+    "Smart contract development tools and expertise are widely available in the tech community."
+  ],
+  "viability_points": [
+    "Growing demand for transparent and credible carbon offset markets creates a strong value proposition.",
+    "Reduced operational costs through automation can attract project developers and buyers.",
+    "Potential for premium pricing due to enhanced trust and verifiable impact."
+  ],
+  "impact_points": [
+    "Accelerates climate action by fostering trust and increasing investment in blue carbon projects.",
+    "Supports biodiversity and coastal protection by incentivizing ecosystem restoration."
+  ],
+  "beneficiaries": [
+    "Coastal communities and indigenous groups, gaining new revenue streams from conservation.",
+    "Corporations and governments seeking verifiable, high-integrity carbon offsets for net-zero goals."
+  ],
+  "original_problem_statement": "Blockchain-Based Blue Carbon Registry and MRV System",
+  "category": "Software"
+}

@@ -1,0 +1,34 @@
+{
+  "need_to_know": "AR stands for Augmented Reality, which overlays digital information onto the real world, enhancing our view. Cultural Heritage Preservation involves protecting and maintaining historical sites, artifacts, and traditions for future generations.",
+  "problem_statement": "Traditional methods struggle to preserve cultural heritage from degradation and offer limited, static access. There's a need for dynamic, globally accessible ways to experience and safeguard these invaluable historical assets.",
+  "idea": "An Augmented Reality (AR) platform that offers immersive, interactive experiences of cultural heritage sites and artifacts. It enables virtual exploration and learning from anywhere, enhancing preservation and global accessibility.",
+  "problem_resolution": "The AR platform digitizes heritage sites, making them immune to physical degradation and globally accessible. It offers immersive, interactive experiences, transcending traditional static presentations and fostering deeper engagement with history.",
+  "usps": [
+    "Immersive 3D/AR experiences bring history to life beyond static displays.",
+    "Global accessibility allows anyone to visit sites regardless of location or physical constraints.",
+    "Digital preservation ensures heritage assets are safeguarded from physical damage.",
+    "Interactive learning modules enhance educational value for all age groups.",
+    "Crowd-sourced content integration enriches experiences with diverse perspectives."
+  ],
+  "how_it_works": "The platform leverages Augmented Reality (AR) SDKs (e.g., ARKit, ARCore), 3D modeling software (e.g., Blender, Unity) for content creation, photogrammetry for high-fidelity object/site capture, and cloud storage (e.g., AWS, Azure) for hosting digital assets. GPS and location services enable site-specific AR overlays, all delivered through a mobile application. Cultural heritage sites and artifacts are meticulously scanned using photogrammetry and LiDAR to create accurate 3D models. Historical data, audio guides, and descriptive texts are also collected. These 3D models and associated metadata are then uploaded to a secure cloud-based server. A mobile application is developed using AR SDKs. When a user visits a physical heritage site, the app uses GPS and visual recognition to identify their location and relevant objects, overlaying digital information, reconstructed structures, or interactive elements onto their real-world view through the device's camera. For users not physically present, the platform offers virtual tours, allowing them to explore 3D models of sites in their own environment or through simulated 360-degree experiences. Users can interact with the virtual content by tapping on objects for detailed historical information, listening to audio narratives, or viewing animations of past events.",
+  "feasibility_points": [
+    "AR technology and 3D modeling tools are mature and widely available for development.",
+    "Cloud infrastructure provides scalable storage and processing for rich digital content.",
+    "High smartphone penetration ensures a large potential user base can access the platform easily."
+  ],
+  "viability_points": [
+    "Strong educational market demand exists for engaging, interactive historical content.",
+    "Potential partnerships with museums, heritage organizations, and tourism boards are high.",
+    "Revenue models include premium content, subscriptions, and sponsored virtual tours."
+  ],
+  "impact_points": [
+    "Democratizes access to global cultural heritage, fostering understanding and appreciation worldwide.",
+    "Provides a robust digital archive, safeguarding invaluable historical data for eternity."
+  ],
+  "beneficiaries": [
+    "Tourists and students seeking immersive, interactive learning experiences and global access to history.",
+    "Cultural heritage organizations, museums, and educators for enhanced preservation and outreach."
+  ],
+  "original_problem_statement": "AR-Based Cultural Heritage Preservation Platform",
+  "category": "Software"
+}

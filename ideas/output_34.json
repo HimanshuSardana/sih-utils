@@ -1,0 +1,38 @@
+{
+  "need_to_know": "The 'PM Internship Scheme' refers to a structured program designed to offer internship opportunities specifically in Product Management. Product Management involves overseeing the development and strategy of a product throughout its lifecycle.",
+  "problem_statement": "Students struggle to find relevant Product Management (PM) internships that align with their skills and career goals. The current matching process is often manual, time-consuming, and inefficient for both applicants and recruiting companies.",
+  "idea": "An AI-powered recommendation engine designed to intelligently match aspiring product managers with suitable internship opportunities within the PM Internship Scheme, optimizing the recruitment process for all stakeholders.",
+  "problem_resolution": "This engine analyzes applicant profiles and internship requirements using advanced AI algorithms, ensuring highly personalized and relevant matches. This significantly reduces search time and improves placement success rates for PM interns.",
+  "usps": [
+    "Personalized Matches: AI-driven recommendations tailored to individual skills, experience, and career aspirations.",
+    "Time Efficiency: Significantly reduces the time applicants spend searching and companies spend sifting through applications.",
+    "Improved Fit: Enhances the likelihood of successful placements by optimizing compatibility between interns and roles.",
+    "Data-Driven Insights: Provides valuable analytics on internship trends, skill gaps, and applicant demographics.",
+    "Scalable Solution: Easily adapts to a growing number of applicants and diverse internship opportunities."
+  ],
+  "how_it_works": "The system utilizes Natural Language Processing (NLP) to parse and extract relevant information from applicant resumes, cover letters, and internship descriptions. Machine Learning (ML) algorithms, such as collaborative filtering and content-based filtering, then process this structured data to identify patterns, calculate compatibility scores, and generate personalized recommendations. A user-friendly web interface allows applicants to create profiles, upload documents, and view recommended internships. Companies can post detailed internship listings and review matched candidates. Key technologies involved include Python for backend logic and data processing, scikit-learn or TensorFlow for implementing ML models, a robust database (e.g., PostgreSQL) for storing user and internship data, and a web framework (e.g., Django or Flask) for the API and frontend development.",
+  "feasibility_points": [
+    "Leverages readily available AI/ML libraries and frameworks, simplifying development efforts.",
+    "Training data can be sourced from past internship programs, job boards, and public datasets.",
+    "Cloud computing platforms offer scalable and cost-effective infrastructure for deployment.",
+    "Modular design allows for incremental development and feature expansion.",
+    "Standard web technologies can be used for rapid prototyping and deployment."
+  ],
+  "viability_points": [
+    "Addresses a significant pain point for both internship seekers and companies in PM.",
+    "Potential for strong partnerships with universities and corporate entities.",
+    "Monetization opportunities through premium features, analytics, or placement fees.",
+    "High demand for efficient talent acquisition solutions in the growing tech industry.",
+    "Scalable business model applicable to other specialized internship schemes."
+  ],
+  "impact_points": [
+    "Revolutionizes the PM internship recruitment landscape, creating a more equitable and efficient pathway for talent.",
+    "Fills critical product management roles faster with highly qualified, well-matched interns, boosting productivity."
+  ],
+  "beneficiaries": [
+    "Aspiring Product Managers: Gain access to highly relevant internships aligned with their skills and career goals.",
+    "Companies/Organizations: Efficiently find and recruit top PM talent, saving significant time and resources."
+  ],
+  "original_problem_statement": "Al-Based Internship Recommendation Engine for PM Internship Scheme",
+  "category": "Software"
+}

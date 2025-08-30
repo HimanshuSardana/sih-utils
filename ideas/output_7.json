@@ -1,0 +1,34 @@
+{
+  "need_to_know": "MRL (Maximum Residue Limits) are the maximum allowable concentrations of veterinary drug residues or pesticides in food products. AMU (Antimicrobial Usage) refers to the use of antimicrobial drugs in livestock, a key factor in antimicrobial resistance.",
+  "problem_statement": "Monitoring Maximum Residue Limits (MRL) and Antimicrobial Usage (AMU) in livestock currently faces challenges with manual processes, inefficiency, and lack of real-time data, leading to food safety concerns.",
+  "idea": "A Digital Farm Management Portal offering real-time monitoring of MRL and AMU in livestock. It integrates farm data to provide actionable insights, ensuring compliance and promoting responsible antimicrobial stewardship.",
+  "problem_resolution": "The portal automates data collection and analysis, provides real-time alerts for MRL breaches, and tracks AMU. This ensures food safety, promotes responsible drug use, and streamlines compliance for livestock farmers.",
+  "usps": [
+    "Provides real-time MRL and AMU tracking from farm to processing.",
+    "Automated alerts notify farmers of potential residue limit violations.",
+    "Offers data-driven insights for optimizing antimicrobial stewardship practices.",
+    "Enhances compliance with national and international food safety regulations.",
+    "Features a user-friendly interface for easy access by all stakeholders."
+  ],
+  "how_it_works": "The Digital Farm Management Portal integrates data from various sources. Farmers input information about animal treatments, feed, and health records via a web and mobile application. Data from IoT sensors (e.g., environmental conditions, animal activity, feed/water intake) can also be collected. This data is stored in a secure cloud database, like AWS or Azure. Machine learning algorithms analyze the combined data to identify patterns in AMU, predict potential MRL violations based on withdrawal periods, and generate alerts. The system visualizes data through interactive dashboards for farmers, veterinarians, and regulatory bodies. Technologies involved would include React/Vue for the frontend, Node.js/Python for the backend, PostgreSQL/MongoDB for databases, and potentially blockchain for data integrity and traceability. IoT platforms like AWS IoT Core could manage sensor data streams.",
+  "feasibility_points": [
+    "Leverages widely available IoT devices and established cloud computing platforms.",
+    "Modern web and mobile development frameworks allow for rapid and efficient implementation.",
+    "Integration with existing farm management software and veterinary systems is achievable."
+  ],
+  "viability_points": [
+    "Addresses a critical global need for food safety and combating antimicrobial resistance.",
+    "Potential to significantly reduce costs for farmers by optimizing drug use and avoiding penalties.",
+    "Meets increasing consumer and regulatory demand for transparency in food production."
+  ],
+  "impact_points": [
+    "Significantly reduces the public health risk of antimicrobial resistance and unsafe food residues.",
+    "Boosts consumer trust in livestock products and promotes sustainable, ethical farming practices."
+  ],
+  "beneficiaries": [
+    "Livestock farmers gain efficient tools for compliance, better animal health, and optimized resource use.",
+    "Consumers benefit from safer, residue-free meat and dairy products, enhancing public health."
+  ],
+  "original_problem_statement": "Development of a Digital Farm Management Portal for Monitoring aximum Residue Limits (MRL) and Antimicrobial Usage (AMU) in Livestock",
+  "category": "Software"
+}

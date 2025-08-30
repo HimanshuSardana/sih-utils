@@ -1,0 +1,34 @@
+{
+  "need_to_know": "Low Voltage AC Distribution Over Head conductors are the electrical wires that distribute power from substations to homes and businesses, typically found on utility poles. Their breakage can lead to power outages, safety hazards, and significant repair costs.",
+  "problem_statement": "Detecting breakages in Low Voltage AC Distribution Over Head conductors is currently expensive and often slow, leading to prolonged power outages, potential safety risks, and increased operational costs for utility providers.",
+  "idea": "A smart, cost-effective, wireless sensor network combined with AI-driven analytics to provide real-time detection and location of Low Voltage AC Distribution Over Head conductor breakages, minimizing outage times and enhancing safety.",
+  "problem_resolution": "Our idea uses inexpensive, intelligent sensors to immediately identify conductor breakages and alert utility companies. This dramatically shortens response times, mitigates safety risks, and reduces operational expenses related to line faults.",
+  "usps": [
+    "Real-time, automatic breakage detection minimizes manual inspection needs.",
+    "Low-cost, energy-efficient sensors enable widespread, affordable deployment.",
+    "Wireless mesh network architecture simplifies installation and maintenance.",
+    "AI-powered analytics reduce false positives, ensuring accurate alerts.",
+    "Scalable system design adapts to various grid sizes and network complexities."
+  ],
+  "how_it_works": "Small, self-powered inductive current sensors are attached to each Low Voltage AC conductor segment. These sensors continuously monitor current flow and impedance. A sudden drop in current to zero or a significant impedance change indicates a breakage. Data from these sensors is transmitted wirelessly using a low-power, long-range protocol like LoRaWAN or NB-IoT to nearby gateways. These gateways then forward the data to a central cloud platform (e.g., AWS IoT, Azure IoT). On the cloud platform, an AI/Machine Learning model, trained on historical current data and breakage patterns, analyzes the incoming sensor data in real-time. Upon detecting a confirmed breakage, the system triangulates the location using signal strength or predefined segment IDs and immediately dispatches alerts to utility operators via SMS, email, or SCADA integration. Technologies involved include low-power microcontrollers (e.g., ESP32, STM32L series) for sensor processing, LoRaWAN/NB-IoT modules for communication, cloud-based IoT platforms for data ingestion and processing, and Python with TensorFlow/PyTorch for the AI/ML analytics engine.",
+  "feasibility_points": [
+    "Existing low-cost sensor technologies are readily available.",
+    "Wireless communication protocols like LoRaWAN are mature.",
+    "AI/ML models can be effectively trained with relevant data."
+  ],
+  "viability_points": [
+    "Significant market demand from power utility companies.",
+    "Reduces utility operational costs by preventing prolonged outages.",
+    "Potential for substantial revenue generation through wide adoption."
+  ],
+  "impact_points": [
+    "Enhances public safety by quickly identifying and isolating fallen power lines.",
+    "Improves grid reliability, reducing downtime and energy waste for consumers."
+  ],
+  "beneficiaries": [
+    "Power distribution companies benefit from faster repairs and reduced operational costs.",
+    "General public benefits from safer environments and more reliable electricity supply."
+  ],
+  "original_problem_statement": "Developing a cost effective solution for detecting the breakage of Low Voltage AC Distribution Over Head conductors",
+  "category": "Hardware"
+}

@@ -1,0 +1,35 @@
+{
+  "need_to_know": "Dialysis is a medical procedure to remove waste and excess fluid from the blood when kidneys fail. Seismic events refer to earthquakes or ground tremors.",
+  "problem_statement": "Dialysis patients face severe risks during earthquakes due to potential system damage or disruption, jeopardizing their life-sustaining treatment.",
+  "idea": "Develop an Earthquake-Stabilized Dialysis System ensuring continuous, safe treatment for patients even during seismic activities, minimizing disruption and harm.",
+  "problem_resolution": "This system integrates advanced stabilization technology to protect dialysis machines from seismic damage, maintaining operational integrity and patient access to critical care during emergencies.",
+  "usps": [
+    "Automated seismic detection and stabilization protects equipment.",
+    "Ensures uninterrupted, life-saving dialysis treatment continuity.",
+    "Modular design allows integration with various dialysis machines.",
+    "Enhanced patient safety and reduced injury risk during events.",
+    "Complies with critical medical infrastructure standards."
+  ],
+  "how_it_works": "The system employs seismic sensors (accelerometers) to detect ground motion. Upon detecting a seismic event, an integrated control unit (microcontroller/PLC) activates an active stabilization mechanism. This could involve hydraulic or pneumatic actuators working in conjunction with base isolation platforms (e.g., rolling-ball, sliding, or elastomeric bearings) to decouple the dialysis machine from ground vibrations. Passive dampening technologies like viscous dampers or tuned mass dampers could also be utilized. Real-time data from sensors could be processed using embedded systems or IoT platforms, potentially incorporating AI for predictive analysis of ground motion. The entire system is powered by a robust, uninterruptible power supply (UPS) to ensure operation during power outages.",
+  "feasibility_points": [
+    "Base isolation and active dampening technologies are well-established in civil engineering applications.",
+    "Compact seismic sensors and control systems required for real-time response are readily available.",
+    "Integration with existing dialysis machine designs is achievable with modular stabilization platforms.",
+    "The core engineering principles are proven and can be adapted to medical equipment."
+  ],
+  "viability_points": [
+    "High demand exists in earthquake-prone regions with significant dialysis patient populations.",
+    "Potential for regulatory approval as critical life-support infrastructure due to safety benefits.",
+    "Cost-effective compared to the catastrophic human and economic costs of system failure and patient harm."
+  ],
+  "impact_points": [
+    "Significantly reduces mortality and injury rates for dialysis patients during earthquakes.",
+    "Enhances resilience of healthcare facilities, maintaining critical services in disasters."
+  ],
+  "beneficiaries": [
+    "Dialysis patients, ensuring their safety and continuity of life-sustaining treatment.",
+    "Hospitals and medical staff, safeguarding equipment and improving disaster preparedness."
+  ],
+  "original_problem_statement": "Earthquake stabilised dialysis system for patient safety during seismic events.",
+  "category": "Hardware"
+}

@@ -1,0 +1,34 @@
+{
+  "need_to_know": "Agri produce refers to agricultural products like fruits, vegetables, and crops. NER Region stands for India's North Eastern Region, characterized by challenging, often remote terrains and limited road infrastructure.",
+  "problem_statement": "Farmers in the NER struggle with high costs and difficult access to transport their produce from remote farms to main roads. This leads to significant spoilage and reduced income, hindering their economic growth.",
+  "idea": "Develop 'Agri-Connect', an autonomous, low-cost electric vehicle system for last-mile logistics. It will efficiently transport agri produce from remote farms directly to collection points on motorable roads, leveraging sustainable technology.",
+  "problem_resolution": "Agri-Connect directly tackles high transportation costs and accessibility issues. By automating last-mile delivery, it minimizes manual labor, reduces spoilage, and ensures timely, affordable movement of produce, boosting farmer profitability.",
+  "usps": [
+    "Significantly reduces transportation costs for farmers by eliminating manual labor and traditional vehicle dependency.",
+    "Provides reliable, all-weather access to remote farms, overcoming geographical barriers in challenging terrains.",
+    "Minimizes post-harvest losses and spoilage through timely and gentle handling of delicate agri produce.",
+    "Offers an eco-friendly transport solution with zero emissions, contributing to sustainable agricultural practices.",
+    "Empowers small-scale farmers with direct market access, ensuring better prices and economic stability."
+  ],
+  "how_it_works": "The 'Agri-Connect' system involves small, rugged, electric autonomous ground vehicles (AGVs) specifically designed for rough terrain. Farmers use a simple mobile application to request a pick-up. The AGV, equipped with GPS for global positioning and SLAM (Simultaneous Localization and Mapping) for real-time environment mapping, navigates autonomously from the farm to a pre-defined collection point on a motorable road. A suite of sensors, including LiDAR and cameras, enables obstacle detection and avoidance, ensuring safe operation. The system utilizes a cloud-based centralized management platform for route optimization, vehicle dispatch, and monitoring. Battery swapping stations or fast-charging points are strategically located to minimize downtime. The AGVs are designed with modular cargo bays to accommodate various types of agri produce securely, ensuring minimal damage during transit. Connectivity will be maintained via cellular networks (4G/5G) or satellite communication in areas with limited terrestrial coverage, allowing for remote monitoring and control.",
+  "feasibility_points": [
+    "Autonomous vehicle technology (AGVs, GPS, SLAM) is mature and readily adaptable for this specific application.",
+    "Off-the-shelf sensors and open-source robotics frameworks can significantly reduce development costs and time.",
+    "The modular design allows for phased deployment and iterative improvements based on field conditions and feedback."
+  ],
+  "viability_points": [
+    "Addresses a critical, underserved market need in the NER, offering significant value to farmers.",
+    "Potential for government subsidies and partnerships with agricultural bodies or local cooperatives.",
+    "Scalable as a service (Transportation-as-a-Service) model, expanding across other remote regions."
+  ],
+  "impact_points": [
+    "Boosts rural economies by significantly increasing farmer income and reducing post-harvest losses.",
+    "Enhances food security and accessibility of fresh produce by improving supply chain efficiency."
+  ],
+  "beneficiaries": [
+    "Small and marginal farmers in remote areas of the NER gain equitable market access and better profits.",
+    "Consumers benefit from a more consistent supply of fresher, higher-quality produce at potentially lower prices."
+  ],
+  "original_problem_statement": "Low-Cost smart transportation solution for Agri produce from remote farms to nearest motorable road in NER Region",
+  "category": "Hardware"
+}

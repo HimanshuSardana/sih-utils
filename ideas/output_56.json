@@ -1,0 +1,38 @@
+{
+  "need_to_know": "Fire assay is a traditional, destructive method for gold purity testing, requiring melting a sample. Non-destructive testing (NDT) refers to methods that analyze materials without causing any damage, preserving the item's integrity.",
+  "problem_statement": "The gold industry needs alternative, non-destructive assaying methods for testing gold jewelry and artifacts. Current fire assay is accurate but destructive, causing irrecoverable damage to valuable items.",
+  "idea": "To develop a portable, accurate, and non-destructive gold assaying system utilizing advanced spectroscopic technologies. This system will safely determine the purity of gold jewelry and historical artifacts without causing any damage.",
+  "problem_resolution": "This innovative system provides rapid, precise gold purity assessment, eliminating the need for destructive fire assay. It preserves the integrity and value of precious gold items, benefiting jewelers and heritage institutions alike.",
+  "usps": [
+    "Preserves item integrity: Gold jewelry and artifacts remain undamaged and pristine after testing.",
+    "Rapid, on-site analysis: Delivers instant purity results, enabling quick decisions and transactions.",
+    "Enhanced accuracy and precision: Utilizes advanced scientific methods for reliable gold content determination.",
+    "Cost-effective in long term: Reduces material loss and processing time compared to destructive methods.",
+    "Environmentally friendly: Eliminates the use of hazardous chemicals and waste associated with fire assay."
+  ],
+  "how_it_works": "The idea proposes a hybrid non-destructive assaying system primarily utilizing X-ray Fluorescence (XRF) and Laser-Induced Breakdown Spectroscopy (LIBS) technologies. XRF works by irradiating the gold item with X-rays; the gold atoms then emit characteristic secondary X-rays whose energy and intensity are unique to gold and its alloys, allowing for precise quantification of elemental composition near the surface. LIBS, on the other hand, uses a pulsed laser to ablate a minuscule amount of material from the sample, creating a plasma. The light emitted from this plasma is then analyzed by a spectrometer. Each element in the gold alloy produces a unique spectral 'fingerprint,' enabling deeper and more localized elemental analysis. The combination of XRF for surface-level composition and LIBS for slightly deeper analysis provides a comprehensive and accurate purity assessment. Both technologies are integrated into a single, user-friendly device, with software processing the spectral data to calculate the gold fineness and display results instantly.",
+  "feasibility_points": [
+    "Existing XRF and LIBS technologies are mature and widely applied in various material analysis fields.",
+    "Miniaturization trends in analytical instrumentation allow for the development of portable assaying devices.",
+    "Development of robust calibration standards for gold alloys ensures high accuracy and reliability."
+  ],
+  "viability_points": [
+    "Significant market demand from jewelers, pawn shops, museums, and customs agencies for NDT solutions.",
+    "Lower operational costs and reduced material loss offer strong economic incentives over destructive methods.",
+    "Aligns with increasing global focus on heritage preservation and sustainable business practices.",
+    "Offers competitive advantages in speed and convenience over traditional assay houses.",
+    "Potential for widespread adoption in countries with large gold markets."
+  ],
+  "impact_points": [
+    "Safeguards invaluable cultural heritage and rare artifacts by eliminating destructive testing methods.",
+    "Fosters trust and transparency in the global gold trade by providing quick, verifiable authentication.",
+    "Reduces environmental footprint by eliminating chemical waste from traditional fire assay processes.",
+    "Empowers consumers with faster, more reliable verification of their gold purchases."
+  ],
+  "beneficiaries": [
+    "Jewelers and gold dealers: Benefit from faster transactions, reduced material loss, and increased customer trust.",
+    "Museums and heritage institutions: Can authenticate and preserve precious gold artifacts without risking damage."
+  ],
+  "original_problem_statement": "To explore new/altermative assaying methods to the fire assay method for testing of gold jewellery and artefacts through non-destructive testing",
+  "category": "Hardware"
+}
