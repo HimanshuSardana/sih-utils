@@ -6,7 +6,6 @@ import csv
 
 client = genai.Client()
 
-# read csv file
 with open('ps.csv', mode='r') as file:
     csv_reader = csv.DictReader(file)
     data = [
@@ -17,10 +16,12 @@ with open('ps.csv', mode='r') as file:
 # print(data)
 
 class Content(BaseModel):
+    need_to_know: str = Field(..., description="The problem statement may contain abbreviations or jargon that the audience may not be familiar with. Provide a brief explanation of any such terms or concepts.")
     problem_statement: str = Field(..., description="A brief description of the problem statement. (No more than 50 words)")
     idea: str = Field(..., description="The main idea or topic for the PPT slide deck. (No more than 50 words)")
     problem_resolution: str = Field(..., description="A concise explanation of how the idea addresses the problem statement. (No more than 50 words)")
 
+    usps: list[str] = Field(..., description="A list of 5 unique selling points (USPs) of the idea. Each point should be no more than 30 words.")
     how_it_works: str = Field(..., description="A brief explanation of how the idea works. List all the technologies involved and how they work, no word limit")
     
     feasibility_points: list[str] = Field(..., description="A list of 3 points explaining the feasibility of the idea. Each point should be no more than 30 words.")
@@ -51,8 +52,10 @@ for item in data:
     )
 
     json_resp = response.parsed
+    json_resp["original_problem_statement"] = item["problem_statement"]
     json_resp["category"] = item["category"]
     # print(json.dumps(response.parsed, indent=2))
     with open(f"ideas/output_{item['sno']}.json", "w") as f:
         json.dump(json_resp, f, indent=2)
     print(f"Output written to output_{item['sno']}.json")
+    time.sleep(5)
