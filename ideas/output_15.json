@@ -1,33 +1,33 @@
 {
-  "need_to_know": "Infection Level of a Plant refers to the severity and spread of diseases or pests. An Intelligent Pesticide Sprinkling System uses technology to precisely apply pesticides only where and when needed, based on this infection data.",
-  "problem_statement": "Farmers currently apply pesticides uniformly, leading to waste, environmental damage, and potential crop harm. There's a need for a system that precisely targets pesticide application based on actual plant infection levels, optimizing usage and minimizing negative impacts.",
-  "idea": "Our idea is an AI-powered precision agriculture system. It identifies specific plant infection levels using image analysis and deploys an intelligent sprinkling mechanism to apply pesticides only to affected areas, ensuring efficient and targeted treatment.",
-  "problem_resolution": "This system resolves inefficient pesticide use by providing real-time, plant-specific infection data. It enables automated, targeted application, significantly reducing waste, environmental impact, and improving crop health while cutting farmer costs.",
+  "need_to_know": "\u201cInfection Level\u201d refers to the severity of disease or pest infestation on a plant. A \u201cPesticide Sprinkling System\u201d is used to apply chemical agents to protect plants from pests/diseases, often uniformly.",
+  "problem_statement": "Farmers currently apply pesticides uniformly, leading to overuse, environmental harm, and increased costs. A targeted approach based on actual plant health is urgently needed to optimize application.",
+  "idea": "Develop an intelligent system that precisely applies pesticides only where and when needed, determined by real-time plant infection levels. This optimizes usage and minimizes waste.",
+  "problem_resolution": "This system tackles pesticide overuse and environmental pollution by enabling precise, data-driven application. It reduces costs for farmers and promotes sustainable agricultural practices by targeting only infected areas.",
   "usps": [
-    "Reduces pesticide consumption by up to 70%, lowering costs and minimizing chemical exposure for workers.",
-    "Enhances crop health and yield by preventing widespread infections with timely, precise treatment.",
-    "Minimizes environmental pollution by drastically cutting pesticide runoff into soil and water bodies.",
-    "Provides data-driven insights into plant health, enabling proactive disease management and optimized farming practices.",
-    "Automates the spraying process, saving labor time and ensuring consistent, accurate application across large farms."
+    "Precision application significantly reduces pesticide waste, cutting operational costs for farmers.",
+    "Minimizes environmental impact by preventing chemical runoff and soil contamination.",
+    "Improves crop yield and quality by effectively targeting infected areas with appropriate treatment.",
+    "Provides data-driven insights into plant health, enabling proactive disease management and timely intervention.",
+    "Automated system reduces manual labor and exposure risks for agricultural workers, improving safety."
   ],
-  "how_it_works": "The system utilizes drones or ground-based robots equipped with high-resolution multispectral cameras to capture images of crops. These images are fed into an AI/ML model (e.g., Convolutional Neural Networks for image classification and segmentation) which analyzes plant health, identifies disease or pest infection, and determines its severity and exact location. This data is then transmitted via IoT (Internet of Things) devices to a central control unit. Based on the infection map, the intelligent sprinkling system, integrated with precision sprayers and GPS modules, is activated. It uses IoT-enabled nozzles that can be individually controlled to release pesticides only on the identified infected areas, adjusting dosage based on severity. Technologies involved include Computer Vision, Machine Learning, IoT for connectivity, GPS for localization, and precision spraying hardware.",
+  "how_it_works": "The system uses a combination of technologies. Drones or robotic platforms equipped with hyperspectral cameras and IoT sensors (e.g., for moisture, temperature) collect real-time data on plant health. Image recognition and AI/ML algorithms analyze this data to detect and quantify plant infection levels, generating precise infection maps. Based on these maps, an integrated precision sprinkling mechanism applies pesticides only to the affected areas, optimizing dosage and coverage. Cloud computing handles large-scale data processing and storage, while a user-friendly interface allows farmers to monitor and control the entire operation.",
   "feasibility_points": [
-    "Existing drone technology and high-resolution cameras are readily available and affordable for agricultural use.",
-    "Advanced AI/ML frameworks exist for image recognition, enabling rapid development of disease detection models.",
-    "IoT communication protocols and precision spraying hardware are mature, making system integration straightforward."
+    "AI/ML for image analysis and plant disease detection is a mature and well-established technology.",
+    "Drone technology and precision spraying hardware are readily available and widely used in modern agriculture.",
+    "IoT sensors provide real-time environmental and plant health data efficiently, supporting data-driven decisions."
   ],
   "viability_points": [
-    "Farmers save significantly on pesticide costs and labor, increasing profitability and operational efficiency.",
-    "Addresses the growing demand for sustainable agriculture practices and reduces environmental compliance burdens.",
-    "Scalable to various farm sizes and crop types, offering a wide market potential in the agriculture sector."
+    "Offers significant cost savings for farmers by drastically reducing pesticide consumption and labor.",
+    "Addresses growing consumer and regulatory demand for sustainably farmed produce with less chemical input.",
+    "Potential to increase crop yields and quality, directly boosting farmer profitability and market competitiveness."
   ],
   "impact_points": [
-    "Significantly reduces environmental damage by minimizing pesticide runoff, protecting biodiversity and water quality.",
-    "Boosts global food security by increasing crop yields and quality through targeted disease management."
+    "Reduces environmental pollution from chemical runoff, preserving biodiversity and water quality in agricultural areas.",
+    "Enhances food safety by minimizing pesticide residues on crops, leading to healthier food for consumers."
   ],
   "beneficiaries": [
-    "Farmers benefit from reduced input costs, improved crop health, and higher, more consistent yields.",
-    "Consumers receive healthier food with less pesticide residue, and the environment benefits from reduced chemical pollution."
+    "Farmers benefit from increased efficiency, reduced operational costs, and healthier, more productive crops.",
+    "The environment benefits from reduced chemical usage, leading to cleaner soil, water, and ecosystems."
   ],
   "original_problem_statement": "Intelligent Pesticide Sprinkling System Determined by the Infection Level of a Plant",
   "category": "Hardware"

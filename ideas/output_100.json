@@ -1,0 +1,34 @@
+{
+  "need_to_know": "Kolam designs are traditional South Indian geometric patterns drawn with rice flour. Design principles refer to underlying rules like symmetry, repetition, and dot grids that govern their creation.",
+  "problem_statement": "The challenge is to create programs, ideally in Python, to automatically identify the mathematical and artistic principles behind Kolam patterns and then use these principles to generate new, authentic Kolam designs.",
+  "idea": "An AI-powered Kolam analysis and generation engine that learns design rules from existing Kolams and synthesizes new ones based on identified principles and user parameters.",
+  "problem_resolution": "Our solution will automate the discovery of Kolam design principles using image processing and machine learning, then apply these learned rules to algorithmically recreate and generate novel Kolam patterns.",
+  "usps": [
+    "Automated principle extraction from diverse Kolam datasets.",
+    "Generative AI for infinite, unique Kolam design creation.",
+    "Interactive user interface for custom Kolam parameter input.",
+    "Preservation and digitization of traditional art forms.",
+    "Educational tool for learning Kolam design mechanics."
+  ],
+  "how_it_works": "The system will use Python, OpenCV for image preprocessing (edge detection, skeletonization). A Convolutional Neural Network (CNN) or a Generative Adversarial Network (GAN) like a conditional GAN will be trained on a dataset of Kolams to identify underlying design principles (e.g., dot arrangements, line symmetries, geometric motifs). For recreation, the identified principles will guide a generative algorithm (e.g., a rule-based system or the trained GAN's generator) to draw new Kolams. Users can input parameters like grid size, symmetry type, or motif preferences.",
+  "feasibility_points": [
+    "Robust computer vision libraries (OpenCV) are readily available.",
+    "Machine learning frameworks like TensorFlow/PyTorch support complex pattern recognition.",
+    "Python offers extensive tools for rapid prototyping and development."
+  ],
+  "viability_points": [
+    "Attracts cultural enthusiasts and artists for digital art creation.",
+    "Educational tool for geometry, programming, and cultural heritage.",
+    "Potential for customized product designs (textiles, digital art)."
+  ],
+  "impact_points": [
+    "Preserves and revitalizes an ancient art form for future generations.",
+    "Fosters interdisciplinary learning between art, culture, and technology."
+  ],
+  "beneficiaries": [
+    "Artists and designers seeking new inspiration and digital tools.",
+    "Educators and students exploring cultural heritage and computational art."
+  ],
+  "original_problem_statement": "Develop computer programs (in any language, preferably Python) to identify the design principles behind the Kolam designs and recreate the kolams.",
+  "category": "Software"
+}

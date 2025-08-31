@@ -1,34 +1,33 @@
 {
-  "need_to_know": "Dialysis is a medical procedure to remove waste and excess fluid from the blood when kidneys fail. Seismic events refer to earthquakes or ground tremors.",
-  "problem_statement": "Dialysis patients face severe risks during earthquakes due to potential system damage or disruption, jeopardizing their life-sustaining treatment.",
-  "idea": "Develop an Earthquake-Stabilized Dialysis System ensuring continuous, safe treatment for patients even during seismic activities, minimizing disruption and harm.",
-  "problem_resolution": "This system integrates advanced stabilization technology to protect dialysis machines from seismic damage, maintaining operational integrity and patient access to critical care during emergencies.",
+  "need_to_know": "A \"dialysis system\" is a medical treatment that removes waste products and excess fluid from the blood when kidneys fail. \"Seismic events\" are natural ground tremors or earthquakes.",
+  "problem_statement": "Current dialysis systems are vulnerable to damage and disruption during earthquakes, endangering patients who rely on continuous treatment for survival. Patient safety during seismic events is a critical concern.",
+  "idea": "Develop an \"Earthquake-Resilient Dialysis Unit\" (ERDU) that integrates advanced seismic stabilization technologies to ensure continuous and safe dialysis treatment for patients during and immediately after seismic events.",
+  "problem_resolution": "The ERDU mitigates earthquake-induced risks by isolating dialysis machines from ground motion, preventing equipment damage, and maintaining critical connections. This ensures uninterrupted, life-sustaining treatment for vulnerable patients.",
   "usps": [
-    "Automated seismic detection and stabilization protects equipment.",
-    "Ensures uninterrupted, life-saving dialysis treatment continuity.",
-    "Modular design allows integration with various dialysis machines.",
-    "Enhanced patient safety and reduced injury risk during events.",
-    "Complies with critical medical infrastructure standards."
+    "Guaranteed patient safety: Minimizes physical harm and treatment interruption for patients during earthquakes.",
+    "Uninterrupted treatment: Ensures continuous dialysis operation, crucial for patient survival in critical situations.",
+    "Reduced equipment damage: Protects expensive dialysis machines and infrastructure from seismic forces.",
+    "Integrated monitoring: Real-time seismic activity and system stability monitoring for immediate alerts.",
+    "Rapid post-event readiness: System allows quick assessment and resumption of services after a seismic event."
   ],
-  "how_it_works": "The system employs seismic sensors (accelerometers) to detect ground motion. Upon detecting a seismic event, an integrated control unit (microcontroller/PLC) activates an active stabilization mechanism. This could involve hydraulic or pneumatic actuators working in conjunction with base isolation platforms (e.g., rolling-ball, sliding, or elastomeric bearings) to decouple the dialysis machine from ground vibrations. Passive dampening technologies like viscous dampers or tuned mass dampers could also be utilized. Real-time data from sensors could be processed using embedded systems or IoT platforms, potentially incorporating AI for predictive analysis of ground motion. The entire system is powered by a robust, uninterruptible power supply (UPS) to ensure operation during power outages.",
+  "how_it_works": "The Earthquake-Resilient Dialysis Unit (ERDU) utilizes a multi-layered approach to stabilization. The core technology is base isolation, where the entire dialysis unit (machines, patient chairs, and connected infrastructure) rests on a flexible foundation that decouples it from ground motion. This can involve lead-rubber bearings, friction pendulum systems, or spring-damper mechanisms, absorbing seismic energy and reducing lateral forces. Integrated accelerometers and gyroscopes continuously monitor ground motion and system stability, triggering safety protocols. Self-sealing fluid connectors and reinforced tubing prevent leaks and disconnections of critical dialysis lines, using materials resistant to stress and vibration. Uninterruptible Power Supplies (UPS) ensure continuous power even if the main grid fails, maintaining machine operation. Additionally, the unit incorporates a secure anchoring system for individual machines to the isolated platform, preventing tipping or movement within the unit. The entire system is housed in a robust, lightweight, and vibration-dampened casing for enhanced protection.",
   "feasibility_points": [
-    "Base isolation and active dampening technologies are well-established in civil engineering applications.",
-    "Compact seismic sensors and control systems required for real-time response are readily available.",
-    "Integration with existing dialysis machine designs is achievable with modular stabilization platforms.",
-    "The core engineering principles are proven and can be adapted to medical equipment."
+    "Leverages mature seismic isolation and dampening technologies used in buildings and bridges.",
+    "Modular design permits integration of stabilization components into existing or new dialysis units.",
+    "Advances in sensor technology and robust materials make real-time monitoring and secure connections viable."
   ],
   "viability_points": [
-    "High demand exists in earthquake-prone regions with significant dialysis patient populations.",
-    "Potential for regulatory approval as critical life-support infrastructure due to safety benefits.",
-    "Cost-effective compared to the catastrophic human and economic costs of system failure and patient harm."
+    "Significant market demand in earthquake-prone regions globally with large dialysis patient populations.",
+    "Addresses a critical, life-threatening gap in emergency medical preparedness and patient care.",
+    "Potential for strong support from healthcare institutions, disaster relief organizations, and insurance providers."
   ],
   "impact_points": [
-    "Significantly reduces mortality and injury rates for dialysis patients during earthquakes.",
-    "Enhances resilience of healthcare facilities, maintaining critical services in disasters."
+    "Directly saves lives by preventing treatment cessation, complications, and injuries for dialysis patients during seismic events.",
+    "Reduces strain on emergency services and healthcare infrastructure by preventing widespread treatment disruptions."
   ],
   "beneficiaries": [
-    "Dialysis patients, ensuring their safety and continuity of life-sustaining treatment.",
-    "Hospitals and medical staff, safeguarding equipment and improving disaster preparedness."
+    "Dialysis patients in active seismic zones, ensuring their safety and continuity of life-sustaining treatment.",
+    "Hospitals, clinics, and medical facilities by protecting vital equipment and maintaining operational capacity."
   ],
   "original_problem_statement": "Earthquake stabilised dialysis system for patient safety during seismic events.",
   "category": "Hardware"

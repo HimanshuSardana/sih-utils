@@ -1,34 +1,33 @@
 {
-  "need_to_know": "A Digital Health Record Management System is an electronic system for storing and managing patient health information. Migrant workers in Kerala are a significant population group, often lacking consistent healthcare access due to mobility and language barriers. Sustainable Development Goals (SDGs) are global goals set by the UN, including SDG 3 (Good Health and Well-being) and SDG 10 (Reduced Inequalities), which this system aims to support.",
-  "problem_statement": "Migrant workers in Kerala face challenges in managing their health records, leading to fragmented care and poor health outcomes. A unified digital system is needed to ensure continuity of care and align with sustainable development goals.",
-  "idea": "Develop 'Arogya Setu Kerala', a mobile-first Digital Health Record Management System tailored for migrant workers. It will provide secure, portable health records, facilitating seamless healthcare access and promoting well-being across geographical boundaries.",
-  "problem_resolution": "Arogya Setu Kerala digitizes health records, making them accessible anytime, anywhere. This ensures continuity of care for migrant workers, irrespective of location, reducing health disparities and directly supporting key Sustainable Development Goals related to health and inequality.",
+  "need_to_know": "Digital Health Records (DHRs) are electronic versions of a patient's medical history, accessible securely. Sustainable Development Goals (SDGs) are UN objectives for global well-being, specifically SDG 3 (Good Health) and SDG 10 (Reduced Inequalities) are relevant.",
+  "problem_statement": "Migrant workers in Kerala lack a centralized, accessible digital health record system, leading to fragmented care and health disparities. This hinders their access to timely medical services and impacts their overall well-being.",
+  "idea": "Our idea is 'Swasthya Seva': a secure, blockchain-powered Digital Health Record system for migrant workers in Kerala, ensuring portable and accessible health data aligned with SDG 3 and 10.",
+  "problem_resolution": "Swasthya Seva centralizes health data, enabling seamless access for workers and providers, overcoming language barriers, and reducing treatment delays. It promotes equitable healthcare access for this vulnerable population.",
   "usps": [
-    "Personalized, portable health records accessible via mobile, empowering workers to own their health data.",
-    "Multilingual interface supporting various Indian languages, breaking down communication barriers in healthcare.",
-    "Secure data encryption and privacy controls ensuring confidential health information is protected.",
-    "Seamless integration potential with existing healthcare provider systems for coordinated care.",
-    "Offline access to critical health information, ensuring availability even without internet connectivity."
+    "Blockchain-backed security ensures tamper-proof and private health data, building trust among users and providers.",
+    "Multi-language interface with voice input supports diverse linguistic backgrounds of migrant workers.",
+    "Offline accessibility via QR codes allows basic health info retrieval even without internet.",
+    "Integration with existing public health infrastructure for seamless data exchange and reporting.",
+    "Portable health identity across different clinics and states, ensuring continuity of care."
   ],
-  "how_it_works": "The system 'Arogya Setu Kerala' will function via a mobile application for migrant workers and a web portal for healthcare providers. Workers register using a unique ID (e.g., Aadhaar or a system-generated ID) and can input basic health data, medical history, vaccinations, and prescriptions. Healthcare providers can securely access and update these records with patient consent during consultations. The core technologies include: a mobile app (developed for Android and iOS using Flutter/React Native for cross-platform compatibility), a secure cloud-based database (e.g., AWS S3/RDS, Azure Cosmos DB) for scalable data storage, RESTful APIs for communication between the app and the backend, strong data encryption protocols (e.g., AES-256) for data at rest and in transit, and adherence to health data standards like FHIR for potential interoperability. A machine learning component could analyze anonymized aggregate data for public health insights, while blockchain could be explored for tamper-proof record integrity.",
+  "how_it_works": "The system utilizes a mobile application for migrant workers and a web portal for healthcare providers. Workers register using a unique ID (e.g., Aadhaar or a dedicated migrant ID) and can input basic health data, medical history, and past prescriptions. Healthcare providers can access and update records with worker consent using the web portal. Blockchain technology (e.g., Hyperledger Fabric or Ethereum-based private chain) is employed to store encrypted health records securely as immutable ledger entries, ensuring data integrity and patient privacy. IPFS (InterPlanetary File System) can be used for storing large files like X-rays or reports, with hashes stored on the blockchain. A user-friendly interface supports multiple languages. Machine learning can analyze anonymized data for public health insights. Data is accessible via secure login with multi-factor authentication. QR codes can provide quick access to essential medical alerts.",
   "feasibility_points": [
-    "Widespread smartphone penetration among migrant workers in Kerala enables mobile-first solution adoption.",
-    "Government initiatives like 'Arogya Keralam' create a supportive ecosystem for digital health.",
-    "Utilizing open-source technologies can reduce development costs and accelerate implementation.",
-    "Availability of cloud infrastructure and secure API services makes robust system deployment possible."
+    "Existing digital infrastructure in Kerala and smartphone penetration among workers facilitate adoption.",
+    "Open-source blockchain frameworks like Hyperledger reduce development costs and accelerate deployment.",
+    "Partnerships with local NGOs and government health departments can aid implementation and outreach."
   ],
   "viability_points": [
-    "Reduces healthcare costs by minimizing redundant tests and improving diagnostic accuracy.",
-    "Enhances worker productivity and reduces sick days through better health management and preventive care.",
-    "Potential for partnerships with NGOs, employers, and government for funding and wider adoption."
+    "Reduced administrative burden for healthcare providers through digitized records saves operational costs.",
+    "Improved public health outcomes can lead to government funding and reduced healthcare expenditures.",
+    "Potential for premium features (e.g., teleconsultation) or data analytics services for sustainability."
   ],
   "impact_points": [
-    "Significantly improves health outcomes and quality of life for a vulnerable population segment.",
-    "Contributes directly to UN SDGs 3 (Good Health) and 10 (Reduced Inequalities) at a regional level."
+    "Significantly improves health access and continuity of care for a vulnerable population, aligning with SDG 3.",
+    "Reduces health inequalities and empowers migrant workers with their own health data, supporting SDG 10."
   ],
   "beneficiaries": [
-    "Migrant workers benefit from continuous, accessible healthcare, reducing health risks and improving well-being.",
-    "Healthcare providers gain comprehensive patient history, leading to more accurate diagnoses and effective treatments."
+    "Migrant workers in Kerala gain better, more accessible, and continuous healthcare services.",
+    "Healthcare providers benefit from streamlined record management, better patient insights, and reduced errors."
   ],
   "original_problem_statement": "Digital Health Record Management System for migrant workers in Kerala aligned with sustainable development goals.",
   "category": "Software"

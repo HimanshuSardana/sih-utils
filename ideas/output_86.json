@@ -1,37 +1,33 @@
 {
-  "need_to_know": "NEP 2020 (National Education Policy 2020) emphasizes holistic, flexible, and multidisciplinary education. Multidisciplinary Education Structures allow students to combine subjects from diverse fields, moving beyond traditional academic silos.",
-  "problem_statement": "Current timetable generation systems struggle to accommodate NEP 2020's multidisciplinary education framework. This leads to complex scheduling, resource conflicts, and limited flexibility for student course choices across various disciplines.",
-  "idea": "An AI-powered system that automates and optimizes timetable generation for educational institutions adopting NEP 2020. It ensures seamless integration of multidisciplinary courses while optimizing resource allocation and student choices.",
-  "problem_resolution": "This AI system streamlines complex scheduling, resolves resource conflicts, and offers personalized, flexible timetables. It fully aligns with NEP 2020's multidisciplinary vision, enhancing both student experience and institutional efficiency.",
+  "need_to_know": "NEP 2020 (National Education Policy 2020) emphasizes flexible, multidisciplinary education. Multidisciplinary education structures allow students to choose diverse subjects across different fields, requiring complex timetable management.",
+  "problem_statement": "Generating efficient, compliant timetables for educational institutions under NEP 2020's multidisciplinary framework is highly complex. Manual methods are time-consuming and prone to errors.",
+  "idea": "Develop an AI-powered timetable generation system that seamlessly aligns with NEP 2020 principles, accommodating multidisciplinary course selections, faculty availability, and resource optimization.",
+  "problem_resolution": "This AI system automates and optimizes timetable creation, efficiently managing complex constraints of multidisciplinary courses and NEP 2020. It reduces manual effort and minimizes conflicts.",
   "usps": [
-    "Dynamically adapts to NEP 2020 curriculum changes and evolving student preferences.",
-    "Optimizes utilization of faculty, classrooms, and other institutional resources effectively.",
-    "Enables personalized learning paths for students with flexible, multidisciplinary course options.",
-    "Significantly reduces manual scheduling errors and administrative time for institutions.",
-    "Supports complex credit systems and inter-departmental course offerings effortlessly."
+    "NEP 2020 Compliance: Automatically adheres to policy guidelines for flexible and holistic education.",
+    "AI Optimization: Utilizes advanced algorithms to find the most efficient and conflict-free schedules.",
+    "Multidisciplinary Flexibility: Seamlessly integrates diverse subject choices and cross-faculty courses.",
+    "Resource Management: Optimizes allocation of classrooms, labs, and faculty time effectively.",
+    "User-Friendly Interface: Provides intuitive tools for administrators to manage and customize timetables."
   ],
-  "how_it_works": "The system takes inputs like student preferences, course availability, faculty expertise, classroom capacities, and NEP 2020 guidelines. An AI engine, utilizing machine learning algorithms such as genetic algorithms, constraint satisfaction problems, and neural networks for predictive analysis, processes these inputs. It optimizes schedules by prioritizing student choices, minimizing conflicts, balancing faculty workload, and ensuring multidisciplinary course availability. The output is a set of flexible, conflict-free timetables accessible via a user-friendly web/mobile interface. Technologies involved include Python for AI/ML development, Django/Node.js for the backend, React/Angular for the frontend, PostgreSQL for database management, and cloud platforms like AWS or Azure for scalable deployment.",
+  "how_it_works": "The system leverages Artificial Intelligence and Machine Learning algorithms to process various inputs: student course selections, faculty expertise and availability, classroom/lab capacities, and NEP 2020 guidelines. It uses constraint satisfaction problem (CSP) solvers and optimization techniques to generate multiple feasible timetable options. A user-friendly interface allows administrators to input data, set priorities, and review generated schedules. Technologies involved include Python for AI/ML development (e.g., TensorFlow, scikit-learn), cloud platforms (AWS, Azure) for scalability, and possibly a web framework (e.g., Django, React) for the front-end. Data is stored in databases (SQL/NoSQL) and APIs facilitate integration with existing SIS (Student Information Systems).",
   "feasibility_points": [
-    "Leverages readily available open-source AI/ML libraries, reducing development complexity and cost.",
-    "Existing university data on courses, faculty, and student enrollment can effectively train the AI.",
-    "Scalable cloud infrastructure ensures the system can handle varying institutional sizes and data loads.",
-    "Integration with existing LMS/SIS platforms is achievable via standard APIs."
+    "Existing AI algorithms for scheduling and optimization are mature and readily available.",
+    "Data for student preferences, faculty loads, and room availability can be digitally collected.",
+    "Modular architecture allows for phased development and integration with current systems."
   ],
   "viability_points": [
-    "Addresses a critical and growing need for institutions transitioning to NEP 2020, ensuring high market demand.",
-    "Offers potential for recurring subscription models, providing a stable revenue stream for the solution provider.",
-    "Significantly reduces administrative burden and operational costs for educational institutions, demonstrating clear ROI.",
-    "Can be adapted for different educational levels (K-12, higher education) and international curricula."
+    "Growing demand for automated solutions to manage NEP 2020 complexities in education.",
+    "Significant cost savings and efficiency gains for institutions by reducing manual workload.",
+    "Scalable to various institution sizes, from small colleges to large universities."
   ],
   "impact_points": [
-    "Significantly enhances academic flexibility and student satisfaction by offering diverse, personalized learning paths.",
-    "Promotes highly efficient resource management and utilization within educational institutions, saving costs.",
-    "Streamlines administrative processes, allowing educators to focus more on teaching and less on logistics.",
-    "Fosters interdisciplinary collaboration by making cross-departmental course offerings seamless and accessible."
+    "Enhances educational quality by enabling flexible learning paths and reducing scheduling conflicts.",
+    "Reduces administrative burden, freeing up staff to focus on more strategic tasks."
   ],
   "beneficiaries": [
-    "Students: Gain personalized, flexible course schedules that align with their interests and career aspirations under NEP 2020.",
-    "Educational Institutions: Streamline administration, optimize resource allocation, and ensure full compliance with NEP 2020 guidelines easily."
+    "Educational institutions: Streamlines operations, ensures NEP compliance, and optimizes resource use.",
+    "Students: Provides greater flexibility in course selection and a smoother learning experience."
   ],
   "original_problem_statement": "AI-Based Timetable Generation System aligned with NEP 2020 for Multidisciplinary Education Structures",
   "category": "Software"

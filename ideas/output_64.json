@@ -1,33 +1,33 @@
 {
-  "need_to_know": "Renewable Energy (RE) hosting capacity is the maximum RE a grid can integrate without issues. Distribution Feeders are local power lines from substations to consumers. Power quality refers to stable voltage and frequency. High RE injection means large amounts of RE entering the grid, potentially causing instability.",
-  "problem_statement": "The grid struggles to host more renewable energy due to power quality issues. High RE injection causes voltage instability, hindering increased adoption of clean energy in distribution networks.",
-  "idea": "A \"Smart Grid Adaptive Control System\" using real-time data and AI to dynamically manage renewable energy integration and optimize distribution feeder operations for enhanced power quality.",
-  "problem_resolution": "This system actively monitors grid conditions and adjusts RE injection, ensuring stable voltage and frequency. It maximizes hosting capacity by mitigating power quality disturbances from intermittent renewable sources.",
+  "need_to_know": "RE refers to Renewable Energy. Hosting capacity is the maximum amount of RE a feeder can integrate without issues. Distribution Feeders are parts of the grid delivering power. Power quality is the consistency of voltage, frequency, and waveform. High RE injection means large amounts of renewable energy being fed into the grid.",
+  "problem_statement": "Integrating higher amounts of Renewable Energy (RE) into distribution feeders often degrades power quality. The challenge is to increase RE hosting capacity while maintaining grid stability and power quality, especially during peak RE generation periods.",
+  "idea": "Develop an AI-powered Distributed Energy Resource Management System (DERMS) coupled with smart inverters and localized energy storage. This system will optimize RE injection, manage voltage fluctuations, and enhance overall power quality within distribution networks.",
+  "problem_resolution": "Our AI-powered DERMS dynamically manages RE injection, smart inverters, and storage to absorb excess energy and mitigate voltage swings. This approach increases hosting capacity while actively improving power quality and grid stability in real-time.",
   "usps": [
-    "Real-time AI-driven optimization enhances grid stability and efficiency.",
-    "Maximizes renewable energy integration without costly infrastructure upgrades.",
-    "Predictive analytics prevent power quality issues before they occur.",
-    "Modular design allows for scalable deployment across diverse feeders.",
-    "Reduces operational costs through automated grid management and control."
+    "Real-time AI optimization prevents grid instability, ensuring seamless integration of intermittent renewable energy sources.",
+    "Maximizes the utilization of existing grid infrastructure, delaying costly upgrades and expanding RE hosting capacity efficiently.",
+    "Enhances grid resilience and reliability by actively managing power flows and mitigating disturbances caused by high RE.",
+    "Reduces electricity costs for consumers through optimized energy management and higher renewable penetration.",
+    "Scalable and modular design allows for flexible deployment across various distribution network sizes and configurations."
   ],
-  "how_it_works": "The system utilizes IoT sensors for real-time data collection (voltage, current, frequency, RE generation, weather). This data feeds into a central AI/ML model (e.g., reinforcement learning, predictive algorithms) running on edge computing devices or a secure cloud platform. The AI analyzes current grid conditions, predicts potential power quality issues from high RE injection events, and dispatches precise control commands. These commands manage Distributed Energy Resources (DERs) like solar inverters (e.g., reactive power control, curtailment), battery energy storage systems (optimal charging/discharging cycles), and smart load control. Communication between sensors, AI, and DERs uses secure, low-latency protocols such as Modbus TCP/IP, MQTT, or even 5G, ensuring timely responses. Blockchain technology could also be integrated for transparent and immutable data logging and transactions.",
+  "how_it_works": "The system uses a combination of technologies. Smart meters and sensors across the distribution feeder collect real-time data on power flow, voltage, and RE generation. This data feeds into a central AI/Machine Learning engine which predicts RE output and load demand. Based on these predictions and current grid conditions, the AI sends commands to smart inverters connected to RE sources and local battery energy storage systems (BESS). Smart inverters can actively manage reactive power and voltage support, while BESS units store excess RE or inject power to stabilize the grid during dips. Communication between components is facilitated by a robust, secure IoT network. The AI continuously learns and adapts to optimize RE injection, minimize power quality issues like voltage sags/swells, and maximize the feeder's renewable energy hosting capacity.",
   "feasibility_points": [
-    "Existing smart meter infrastructure provides necessary real-time grid data.",
-    "Advancements in AI/ML enable complex real-time decision-making for grid control.",
-    "Proven IoT sensor and secure communication technologies are readily available for deployment."
+    "Existing smart grid technologies and communication infrastructure provide a strong foundation for deployment.",
+    "Advancements in AI/ML algorithms allow for accurate prediction and real-time control necessary for grid management.",
+    "Declining costs of battery energy storage systems make localized deployment economically viable."
   ],
   "viability_points": [
-    "Reduces need for expensive traditional grid upgrades, offering significant cost savings for utilities.",
-    "Increases grid reliability and efficiency, lowering outage costs and improving service continuity.",
-    "Supports renewable energy mandates and decarbonization goals, attracting investment and policy support."
+    "Growing demand for renewable energy and grid modernization initiatives drives market opportunity for this solution.",
+    "Potential for significant operational cost savings for utilities through improved grid efficiency and reduced maintenance.",
+    "Aligns with global environmental policies and incentives promoting cleaner energy integration and grid resilience."
   ],
   "impact_points": [
-    "Accelerates the transition to sustainable energy by significantly boosting renewable integration capacity.",
-    "Enhances overall grid resilience and reliability for all energy consumers."
+    "Accelerates the transition to a sustainable energy future by enabling higher penetration of renewable sources.",
+    "Improves energy security and reliability by diversifying energy sources and strengthening local grids."
   ],
   "beneficiaries": [
-    "Utility companies benefit from optimized operations, reduced maintenance, and improved asset utilization.",
-    "Consumers gain from a more stable, reliable, and cleaner power supply with fewer disruptions."
+    "Utility companies benefit from enhanced grid control, reduced operational costs, and increased customer satisfaction.",
+    "Electricity consumers receive more reliable, higher-quality power and contribute to a greener energy system."
   ],
   "original_problem_statement": "Improving the Renewable Energy hosting capacity in Distribution Feeders improving the Power quality of Distribution network during high RE injection",
   "category": "Hardware"

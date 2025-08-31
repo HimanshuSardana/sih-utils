@@ -1,33 +1,33 @@
 {
-  "need_to_know": "AR stands for Augmented Reality, which overlays digital information onto the real world, enhancing our view. Cultural Heritage Preservation involves protecting and maintaining historical sites, artifacts, and traditions for future generations.",
-  "problem_statement": "Traditional methods struggle to preserve cultural heritage from degradation and offer limited, static access. There's a need for dynamic, globally accessible ways to experience and safeguard these invaluable historical assets.",
-  "idea": "An Augmented Reality (AR) platform that offers immersive, interactive experiences of cultural heritage sites and artifacts. It enables virtual exploration and learning from anywhere, enhancing preservation and global accessibility.",
-  "problem_resolution": "The AR platform digitizes heritage sites, making them immune to physical degradation and globally accessible. It offers immersive, interactive experiences, transcending traditional static presentations and fostering deeper engagement with history.",
+  "need_to_know": "AR stands for Augmented Reality, which overlays digital information onto the real world via a device camera. Cultural Heritage Preservation involves protecting and presenting historical sites, artifacts, and traditions.",
+  "problem_statement": "Traditional methods struggle with accessibility, engagement, and degradation of physical sites. Many historical contexts are lost or hard to visualize for the public, limiting widespread appreciation and understanding.",
+  "idea": "Develop an Augmented Reality (AR) platform allowing users to virtually explore and interact with cultural heritage sites and artifacts, enhancing accessibility, engagement, and educational value.",
+  "problem_resolution": "Our AR platform overcomes physical limitations and degradation, making cultural heritage accessible globally. It offers immersive, interactive experiences, bringing history to life for deeper understanding and engagement.",
   "usps": [
-    "Immersive 3D/AR experiences bring history to life beyond static displays.",
-    "Global accessibility allows anyone to visit sites regardless of location or physical constraints.",
-    "Digital preservation ensures heritage assets are safeguarded from physical damage.",
-    "Interactive learning modules enhance educational value for all age groups.",
-    "Crowd-sourced content integration enriches experiences with diverse perspectives."
+    "Immersive 3D reconstructions of historical sites and artifacts.",
+    "Interactive storytelling at heritage locations through AR overlays.",
+    "Global accessibility, bringing endangered or distant sites to users.",
+    "Rich educational content integrated for all age groups and learners.",
+    "Potential for crowdsourced contributions to cultural preservation."
   ],
-  "how_it_works": "The platform leverages Augmented Reality (AR) SDKs (e.g., ARKit, ARCore), 3D modeling software (e.g., Blender, Unity) for content creation, photogrammetry for high-fidelity object/site capture, and cloud storage (e.g., AWS, Azure) for hosting digital assets. GPS and location services enable site-specific AR overlays, all delivered through a mobile application. Cultural heritage sites and artifacts are meticulously scanned using photogrammetry and LiDAR to create accurate 3D models. Historical data, audio guides, and descriptive texts are also collected. These 3D models and associated metadata are then uploaded to a secure cloud-based server. A mobile application is developed using AR SDKs. When a user visits a physical heritage site, the app uses GPS and visual recognition to identify their location and relevant objects, overlaying digital information, reconstructed structures, or interactive elements onto their real-world view through the device's camera. For users not physically present, the platform offers virtual tours, allowing them to explore 3D models of sites in their own environment or through simulated 360-degree experiences. Users can interact with the virtual content by tapping on objects for detailed historical information, listening to audio narratives, or viewing animations of past events.",
+  "how_it_works": "The platform works by utilizing mobile Augmented Reality (AR) frameworks like ARCore and ARKit. First, 3D models of heritage sites and artifacts are created using photogrammetry and LiDAR scanning, combined with historical research. These models are then imported into game engines like Unity or Unreal Engine, where interactive elements (e.g., audio guides, informational hotspots, animated historical events) are added. The user downloads a mobile application. When they point their device camera at a physical heritage site or even a specific marker, the app uses computer vision and GPS data to recognize the location. It then overlays the pre-rendered 3D models and interactive content onto the real-world view in real-time, accurately aligned with the physical environment. Users can walk around, zoom in, and interact with the virtual content as if it were part of their surroundings. Cloud storage ensures content delivery and updates, while a content management system allows for easy addition of new heritage data.",
   "feasibility_points": [
-    "AR technology and 3D modeling tools are mature and widely available for development.",
-    "Cloud infrastructure provides scalable storage and processing for rich digital content.",
-    "High smartphone penetration ensures a large potential user base can access the platform easily."
+    "AR technology is mature and readily available on most modern smartphones.",
+    "3D scanning, modeling tools, and historical data are accessible resources.",
+    "Existing digital heritage archives can be integrated to build initial content quickly."
   ],
   "viability_points": [
-    "Strong educational market demand exists for engaging, interactive historical content.",
-    "Potential partnerships with museums, heritage organizations, and tourism boards are high.",
-    "Revenue models include premium content, subscriptions, and sponsored virtual tours."
+    "Strong market demand for immersive educational and cultural tourism experiences.",
+    "Opportunities for partnerships with museums, institutions, and tourism boards.",
+    "Potential for multiple revenue streams through subscriptions, premium content, and grants."
   ],
   "impact_points": [
-    "Democratizes access to global cultural heritage, fostering understanding and appreciation worldwide.",
-    "Provides a robust digital archive, safeguarding invaluable historical data for eternity."
+    "Democratizes access to cultural heritage, making it globally available to everyone.",
+    "Digitally preserves at-risk historical sites and artifacts for future generations."
   ],
   "beneficiaries": [
-    "Tourists and students seeking immersive, interactive learning experiences and global access to history.",
-    "Cultural heritage organizations, museums, and educators for enhanced preservation and outreach."
+    "Tourists and students seeking interactive, engaging learning experiences about history.",
+    "Cultural institutions and historians for digital archiving and public outreach."
   ],
   "original_problem_statement": "AR-Based Cultural Heritage Preservation Platform",
   "category": "Software"

@@ -1,33 +1,33 @@
 {
-  "need_to_know": "NAMASTE is India's National AYUSH Morbidity And Standardized Terminologies Electronic portal. ICD-11 is the World Health Organization's global standard for health information, including Traditional Medicine Module 2 (TM2). EMR systems store patient medical records digitally. EHR Standards for India are national guidelines for electronic health records.",
-  "problem_statement": "Existing Indian EMRs lack integration with NAMASTE and ICD-11 TM2. This leads to fragmented traditional medicine data, hindering standardization and compliance with national EHR standards.",
-  "idea": "Develop a secure, scalable API gateway and middleware solution to seamlessly integrate NAMASTE and ICD-11 TM2 into diverse EMR systems compliant with India's EHR standards for unified healthcare data.",
-  "problem_resolution": "Our API solution bridges the gap, enabling EMRs to exchange and classify traditional medicine data using standardized terminologies (NAMASTE, ICD-11 TM2), ensuring compliance and unified patient records for better care.",
+  "need_to_know": "NAMASTE (National AYUSH Morbidity And Standardized Terminologies Electronic) is a portal for Traditional Indian Medicine. ICD-11 (International Classification of Diseases, 11th Revision) includes the TM2 (Traditional Medicine Module 2) for classifying traditional medicine conditions. EMR (Electronic Medical Records) systems manage patient data. EHR Standards for India refers to guidelines for digital health records in the country.",
+  "problem_statement": "Existing Electronic Medical Record (EMR) systems in India lack standardized integration with NAMASTE and ICD-11 (TM2). This gap hinders the proper documentation and exchange of traditional medicine data, preventing comprehensive patient care and compliance with India's Electronic Health Record (EHR) standards.",
+  "idea": "Develop a robust API integration layer to seamlessly connect NAMASTE and ICD-11 (TM2) with existing EMR systems compliant with Indian EHR standards. This will facilitate standardized documentation and data exchange for traditional medicine practices within digital health records.",
+  "problem_resolution": "This API layer standardizes traditional medicine data within EMRs, improving data accuracy, interoperability, and reporting. It ensures compliance with national and international coding standards, enhancing holistic patient care, research, and adherence to Indian EHR guidelines.",
   "usps": [
-    "Seamless integration for traditional medicine data within existing EMR workflows.",
-    "Ensures full compliance with India's EHR standards and global ICD-11 TM2.",
-    "Reduces manual data entry and classification errors for healthcare providers.",
-    "Enhances data quality and interoperability for AYUSH and traditional medicine.",
-    "Scalable and secure architecture designed for diverse EMR environments."
+    "Seamlessly integrates traditional medicine data with modern EMR systems.",
+    "Ensures compliance with WHO ICD-11 TM2 and NAMASTE for standardized data.",
+    "Enhances interoperability for improved data exchange across healthcare platforms.",
+    "Future-proof solution designed to adapt to evolving Indian EHR standards.",
+    "Supports holistic patient care by incorporating traditional health records."
   ],
-  "how_it_works": "The solution involves developing a set of RESTful APIs that act as an intermediary layer. It will accept traditional medicine data from EMR systems, map it to NAMASTE and ICD-11 TM2 terminologies, and allow EMRs to query these standardized codes. Key technologies include: RESTful APIs for communication; JSON for data exchange; a Data Mapping Engine to translate EMR data fields to NAMASTE/ICD-11 TM2 codes and vice-versa, potentially using ontologies or machine learning; robust Security Protocols like OAuth2.0 and HTTPS to ensure data privacy and compliance with Indian data protection laws; and Cloud Infrastructure (e.g., AWS, Azure) for scalable deployment and high availability. A database will store mapping rules, logs, and a cache of standardized codes.",
+  "how_it_works": "The solution involves developing a set of secure, RESTful APIs that act as a bridge between existing EMR systems and the NAMASTE/ICD-11 TM2 databases. When an EMR system needs to record or retrieve information related to traditional medicine, it sends a request to these APIs. The APIs then query the respective NAMASTE or ICD-11 TM2 databases, retrieve the standardized codes or terminologies, and return them to the EMR system. This ensures that traditional medicine data is consistently classified and stored in line with national and international standards. Technologies involved include: RESTful APIs for communication; JSON for data exchange; OAuth2 or API keys for secure authentication; microservices architecture for scalability; and potentially cloud platforms (e.g., AWS, Azure) for hosting the API services, ensuring high availability and performance. The architecture would also consider FHIR (Fast Healthcare Interoperability Resources) for broader health data exchange compatibility.",
   "feasibility_points": [
-    "Leverages existing API development best practices and established healthcare interoperability standards.",
-    "Modular design allows for incremental integration with various EMR systems without major overhauls.",
-    "Open-source libraries and cloud infrastructure can accelerate development and deployment phases."
+    "Existing EMR systems commonly support API integrations, simplifying technical implementation.",
+    "NAMASTE and ICD-11 TM2 provide well-defined data structures suitable for API mapping.",
+    "Modern API development tools and frameworks streamline development and deployment processes."
   ],
   "viability_points": [
-    "Strong government push for digital health and AYUSH integration in India creates market demand.",
-    "Addresses a critical need for standardization in traditional medicine records for better healthcare.",
-    "Potential for a recurring revenue model through subscription-based services for EMR vendors."
+    "Addresses a critical gap in standardizing traditional medicine data within EMRs for better outcomes.",
+    "Supports government initiatives like Ayushman Bharat Digital Mission (ABDM) promoting digital health.",
+    "Enhances research capabilities by providing structured, standardized data on traditional medicine practices."
   ],
   "impact_points": [
-    "Improves clinical decision-making and patient safety through standardized and comprehensive data.",
-    "Facilitates robust research, policy-making, and public health initiatives in traditional medicine."
+    "Revolutionizes traditional medicine documentation by integrating it into mainstream digital health records.",
+    "Empowers data-driven policy making and research in AYUSH by providing rich, standardized datasets."
   ],
   "beneficiaries": [
-    "Healthcare providers and AYUSH practitioners gain streamlined data management and compliance with national standards.",
-    "Patients benefit from integrated, comprehensive, and accurate health records across traditional and modern medicine."
+    "Healthcare providers: Simplifies documentation, ensures compliance, and improves holistic patient care.",
+    "Patients: Benefits from comprehensive, integrated health records for better-informed treatment decisions."
   ],
   "original_problem_statement": "Develop API code to integrate NAMASTE and or the International Classification of Diseases (ICD-11) via the Traditional Medicine Module 2 (TM2) into existing EMR systems that comply with Electronic Health Record (EHR) Standards for India.",
   "category": "Software"

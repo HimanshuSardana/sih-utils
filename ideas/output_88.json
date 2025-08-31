@@ -1,33 +1,33 @@
 {
-  "need_to_know": "HEIs stands for Higher Education Institutions. A 'comprehensive student activity record' refers to tracking all non-academic involvements like clubs, volunteering, internships, and projects, beyond just grades.",
-  "problem_statement": "HEIs lack a unified digital platform to track and manage diverse student activities comprehensively. This leads to fragmented data, difficult reporting, and an incomplete view of student development.",
-  "idea": "A centralized digital platform that consolidates all student co-curricular and extracurricular activities, providing a holistic view of their engagement and skill development throughout their academic journey.",
-  "problem_resolution": "This platform resolves data fragmentation by creating a single source of truth for student activities. It simplifies tracking, reporting, and enables richer insights into student growth beyond academics.",
+  "need_to_know": "HEIs stands for Higher Education Institutions, referring to universities and colleges. A comprehensive student activity record includes not just academic grades but also extracurriculars, projects, volunteering, awards, certifications, and leadership roles.",
+  "problem_statement": "Higher Education Institutions (HEIs) lack a centralized digital platform to comprehensively record and track diverse student activities beyond academics. This leads to fragmented data, making it challenging to get a holistic view of student engagement and achievements.",
+  "idea": "A 'Student Activity Hub' \u2013 a centralized digital platform for HEIs to manage, verify, and showcase all student activities, from academic projects to extracurricular involvement, fostering holistic development and verifiable portfolios.",
+  "problem_resolution": "This platform consolidates all student data into one secure location, providing a complete, verifiable record. It simplifies tracking, enhances student profiles, and enables HEIs to better assess and support student growth beyond academic metrics.",
   "usps": [
-    "Holistic Student Profile: Captures all non-academic achievements, offering a complete picture of student development for future opportunities.",
-    "Automated Verification: Streamlines activity approval processes, reducing manual effort for faculty and administrators efficiently.",
-    "Skill & Competency Mapping: Automatically maps activities to skills, helping students identify gaps and growth areas effectively.",
-    "Data-Driven Insights: Provides analytics for institutions to assess program effectiveness and student engagement trends precisely.",
-    "Personalized Student Portfolios: Allows students to showcase their verified activities and skills to potential employers or for further studies."
+    "Verified activity logs ensuring authenticity and credibility of student participation and achievements.",
+    "Holistic student profiles showcasing skills, projects, and leadership, not just academic grades.",
+    "Seamless integration capabilities with existing HEI learning management and student information systems.",
+    "Personalized skill and interest mapping helping students identify growth areas and opportunities.",
+    "Enhanced employability through a robust, verifiable digital portfolio for career and further study applications."
   ],
-  "how_it_works": "The platform will be a web-based application, accessible via desktop and mobile, built on a robust cloud infrastructure (e.g., AWS, Azure). Students will log in to record activities, which are then routed for faculty/mentor verification via a dedicated interface. Administrators can access dashboards for reporting and insights. Key technologies include a secure relational database (e.g., PostgreSQL) for data storage, RESTful APIs for integration with existing HEI systems (e.g., SIS, LMS), a modern frontend framework (e.g., React, Angular, Vue.js), and potentially AI/ML algorithms for skill inference and personalized activity recommendations based on student profiles and goals.",
+  "how_it_works": "The platform allows students to log various activities such as club participation, project completions, volunteer hours, and awards. Faculty or designated administrators verify these entries, ensuring data accuracy. All verified information is securely stored in a cloud-based database (e.g., AWS, Azure). Students can access a personalized dashboard via a web portal or mobile app to view their complete activity profile, track progress, and generate official, verifiable reports or digital badges. The system will leverage a modern technology stack: a frontend built with React or Angular for a responsive user interface, a backend developed using Node.js with Express.js or Python with Django/Flask for robust API services, a PostgreSQL or MongoDB database for scalable data storage, and potentially blockchain technology for immutable record verification and enhanced trust. APIs will facilitate integration with existing HEI systems like LMS (Learning Management Systems) and SIS (Student Information Systems).",
   "feasibility_points": [
-    "Leverages existing cloud infrastructure and mature web development technologies for rapid deployment and scalability.",
-    "Modular design allows for phased implementation, starting with core features and gradually adding advanced functionalities.",
-    "Integration capabilities with current HEI systems via standard APIs minimize disruption and ensure smooth data flow."
+    "Leverages existing, mature cloud infrastructure for scalable, secure data storage and processing.",
+    "Utilizes widely adopted web and mobile development frameworks, enabling rapid development and deployment.",
+    "Integration with university IT systems is achievable through standard API protocols and data exchange methods."
   ],
   "viability_points": [
-    "Addresses a critical need for HEIs to track and report on student holistic development for accreditation and ranking.",
-    "Enhances student engagement by providing a structured way to record and showcase their diverse achievements and skills.",
-    "Offers valuable data for institutional planning, resource allocation, and improving student support services effectively."
+    "Reduces significant administrative burden on HEI staff by automating student activity record keeping.",
+    "Enhances institutional reputation by showcasing comprehensive student success and engagement.",
+    "Provides a valuable service to students, improving their academic journey and future career prospects."
   ],
   "impact_points": [
-    "Significantly improves student employability by providing a verifiable, comprehensive record of skills and experiences beyond academics.",
-    "Empowers HEIs with comprehensive data to demonstrate educational effectiveness and student success holistically to stakeholders."
+    "Revolutionizes student assessment beyond academic grades, recognizing diverse talents and contributions.",
+    "Empowers students with a verifiable, comprehensive digital portfolio for future academic and career pursuits."
   ],
   "beneficiaries": [
-    "Students: Gain a verifiable, comprehensive record of their activities, aiding career development and personal growth.",
-    "HEI Administration & Faculty: Streamlined activity management, enhanced reporting, and data-driven insights into student engagement."
+    "**Students**: Gain a complete, verifiable digital record of all their achievements, aiding academic and career progression.",
+    "**Higher Education Institutions (HEIs)**: Streamline record management, enhance student support, and improve institutional reporting."
   ],
   "original_problem_statement": "Centralised Digital Platform for Comprehensive student activity record in HEIs",
   "category": "Software"

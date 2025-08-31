@@ -1,33 +1,33 @@
 {
-  "need_to_know": "Shelf life refers to the period during which onions remain fresh and suitable for consumption before spoilage, rot, or sprouting, directly impacting their market value.",
-  "problem_statement": "Current onion storage methods lead to significant post-harvest losses due to spoilage, sprouting, and rot. This reduces farmer income and contributes to substantial food waste across the supply chain.",
-  "idea": "A \"Smart Controlled-Environment Onion Storage System\" utilizing IoT, precise climate control, and natural, bio-degradable sprout inhibitors to significantly extend onion shelf life and reduce waste.",
-  "problem_resolution": "This system precisely controls environmental factors (temperature, humidity, CO2, ethylene) causing spoilage and uses safe, natural inhibitors to prevent sprouting, drastically extending onion freshness.",
+  "need_to_know": "Onion shelf life refers to the period onions remain suitable for consumption or sale after harvest, before spoilage. Extending this reduces post-harvest losses and waste.",
+  "problem_statement": "Current onion storage methods often lead to significant post-harvest losses due to spoilage, sprouting, and rotting. This impacts farmers' income, market supply, and consumer prices, creating food waste.",
+  "idea": "Our idea is an IoT-enabled 'Smart Onion Storage System' that maintains optimal environmental conditions (temperature, humidity, ventilation) and provides real-time monitoring and predictive analytics to significantly extend onion shelf life.",
+  "problem_resolution": "This system actively controls storage parameters to minimize spoilage factors like moisture, heat, and pathogens. Real-time data and alerts help intervene proactively, drastically reducing post-harvest losses for onions.",
   "usps": [
-    "Reduces post-harvest losses by up to 40%, significantly increasing farmer profitability and market stability.",
-    "Utilizes eco-friendly, non-toxic natural sprout inhibitors, ensuring consumer safety and sustainability.",
-    "Offers real-time monitoring and remote control via a user-friendly mobile application for optimal management.",
-    "Features a modular design, allowing easy scalability for individual farmers to large-scale distribution centers.",
-    "Achieves low energy consumption through AI-optimized climate control algorithms, reducing operational costs."
+    "Precision environmental control using IoT sensors ensures ideal conditions for onion preservation, minimizing decay and sprouting effectively.",
+    "AI-driven predictive analytics identify potential spoilage risks early, enabling timely intervention and preventing widespread losses.",
+    "Remote monitoring and control via a user-friendly dashboard allow farmers to manage their storage from anywhere, anytime.",
+    "Modular and scalable design makes the system adaptable for various storage capacities, from small farms to large warehouses.",
+    "Significant reduction in post-harvest waste translates to higher profits for farmers and more stable market prices for consumers."
   ],
-  "how_it_works": "The system integrates IoT sensors (temperature, humidity, CO2, ethylene, light) within insulated storage units. A central AI-driven control unit continuously processes this data to maintain optimal conditions by adjusting ventilation, cooling, and humidity levels. It also incorporates a controlled release mechanism for natural sprout inhibitors, such as mint essential oil vapor, which safely prevents premature sprouting without chemical residues. All data and control functions are accessible to users via a dedicated mobile application, providing real-time alerts and management capabilities. Technologies involved include IoT devices, AI/Machine Learning for predictive analytics and control, environmental sensors, controlled atmosphere technology, and bio-inhibitor delivery systems.",
+  "how_it_works": "The Smart Onion Storage System integrates a network of IoT sensors, microcontrollers, and cloud-based analytics. Temperature and humidity sensors continuously monitor the ambient conditions within the storage unit. Gas sensors detect early signs of ethylene or other spoilage gases. Data from these sensors is transmitted via Wi-Fi or cellular networks to a central cloud platform. An AI algorithm processes this real-time data to identify deviations from optimal conditions and predict potential spoilage events. Actuators, such as smart ventilation fans, automated cooling/heating units, and dehumidifiers, are then triggered by the microcontroller to adjust the environment. For example, if humidity rises, dehumidifiers activate; if temperature exceeds a threshold, cooling units or fans increase airflow. Farmers receive alerts and can view detailed reports through a mobile app or web dashboard, allowing remote control and insights into their onion stock's health. Technologies involved include: IoT sensors (temperature, humidity, gas), microcontrollers (e.g., Arduino, Raspberry Pi), cloud computing platforms (e.g., AWS, Azure) for data storage and processing, AI/Machine Learning for predictive analytics, and mobile/web development for user interfaces.",
   "feasibility_points": [
-    "IoT sensor technology and climate control hardware are mature, widely available, and cost-effective for implementation.",
-    "AI algorithms for environmental optimization and predictive maintenance are well-developed and adaptable.",
-    "Natural sprout inhibitors like essential oils have proven efficacy and are safe for agricultural use."
+    "Existing IoT sensor technology is mature and affordable, making hardware implementation straightforward and cost-effective.",
+    "Cloud computing and AI platforms offer robust infrastructure for data processing and predictive analytics, readily available for integration.",
+    "The system can be designed to integrate with existing storage structures, reducing initial setup costs and implementation complexity."
   ],
   "viability_points": [
-    "High market demand for extended shelf-life produce from both farmers and retailers globally.",
-    "Potential for significant Return on Investment (ROI) by drastically reducing current spoilage losses.",
-    "Scalable business model, suitable for deployment from small farm-level units to large commercial storage facilities."
+    "High demand for reducing post-harvest losses from farmers and agricultural businesses creates a clear market opportunity.",
+    "The cost savings from reduced spoilage and increased shelf life offer a strong return on investment for adopters.",
+    "Potential for subscription-based services for data analytics and maintenance ensures recurring revenue streams."
   ],
   "impact_points": [
-    "Significantly reduces global food waste, contributing to a more sustainable and efficient food supply chain.",
-    "Enhances food security by making fresh onions available year-round, even in regions with seasonal harvesting."
+    "Significantly reduces food waste, contributing to global food security and environmental sustainability.",
+    "Enhances farmer profitability by minimizing losses and allowing better market timing for sales, leading to economic stability."
   ],
   "beneficiaries": [
-    "Farmers, by increasing their marketable yield, improving income stability, and reducing waste management costs.",
-    "Consumers, by providing consistent access to fresher, higher-quality onions at potentially lower prices."
+    "Farmers will benefit from increased income due to less spoilage and better control over their harvest, leading to greater financial security.",
+    "Consumers will benefit from more stable onion prices, consistent availability, and higher quality produce in the market."
   ],
   "original_problem_statement": "Improved Onion storage technology for enhancing shelf life of onions",
   "category": "Hardware"

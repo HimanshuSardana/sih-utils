@@ -1,37 +1,33 @@
 {
-  "need_to_know": "The 'PM Internship Scheme' refers to a structured program designed to offer internship opportunities specifically in Product Management. Product Management involves overseeing the development and strategy of a product throughout its lifecycle.",
-  "problem_statement": "Students struggle to find relevant Product Management (PM) internships that align with their skills and career goals. The current matching process is often manual, time-consuming, and inefficient for both applicants and recruiting companies.",
-  "idea": "An AI-powered recommendation engine designed to intelligently match aspiring product managers with suitable internship opportunities within the PM Internship Scheme, optimizing the recruitment process for all stakeholders.",
-  "problem_resolution": "This engine analyzes applicant profiles and internship requirements using advanced AI algorithms, ensuring highly personalized and relevant matches. This significantly reduces search time and improves placement success rates for PM interns.",
+  "need_to_know": "The 'PM Internship Scheme' refers to a program designed for students seeking internships in Product Management. An 'AI-Based Recommendation Engine' utilizes artificial intelligence to suggest suitable matches by analyzing data.",
+  "problem_statement": "Students struggle to find relevant Product Management internships, and companies face challenges identifying suitable candidates. Manual matching is inefficient, leading to suboptimal placements and lost opportunities for both sides.",
+  "idea": "An AI-powered recommendation engine specifically designed to intelligently match students with Product Management internships, considering skills, interests, and company requirements for optimal placements.",
+  "problem_resolution": "This engine leverages AI to analyze student profiles and internship descriptions, providing highly personalized recommendations. It streamlines the matching process, ensuring better fit for students and efficient talent acquisition for companies.",
   "usps": [
-    "Personalized Matches: AI-driven recommendations tailored to individual skills, experience, and career aspirations.",
-    "Time Efficiency: Significantly reduces the time applicants spend searching and companies spend sifting through applications.",
-    "Improved Fit: Enhances the likelihood of successful placements by optimizing compatibility between interns and roles.",
-    "Data-Driven Insights: Provides valuable analytics on internship trends, skill gaps, and applicant demographics.",
-    "Scalable Solution: Easily adapts to a growing number of applicants and diverse internship opportunities."
+    "Delivers highly personalized recommendations based on detailed student profiles and role requirements, enhancing fit.",
+    "Significantly reduces manual screening and application processes for both students and recruiters.",
+    "Improves internship satisfaction and retention rates by ensuring a better match between intern and company.",
+    "Provides data-driven insights to program administrators for continuous improvement and talent pipeline analysis.",
+    "Scalable solution capable of efficiently handling a large volume of applicants and diverse internship opportunities."
   ],
-  "how_it_works": "The system utilizes Natural Language Processing (NLP) to parse and extract relevant information from applicant resumes, cover letters, and internship descriptions. Machine Learning (ML) algorithms, such as collaborative filtering and content-based filtering, then process this structured data to identify patterns, calculate compatibility scores, and generate personalized recommendations. A user-friendly web interface allows applicants to create profiles, upload documents, and view recommended internships. Companies can post detailed internship listings and review matched candidates. Key technologies involved include Python for backend logic and data processing, scikit-learn or TensorFlow for implementing ML models, a robust database (e.g., PostgreSQL) for storing user and internship data, and a web framework (e.g., Django or Flask) for the API and frontend development.",
+  "how_it_works": "The system employs Machine Learning (ML) algorithms, Natural Language Processing (NLP), and Collaborative Filtering techniques. Student data, including resumes, skills, academic background, and preferences, is collected. Internship data, such as job descriptions, required skills, and company culture, is also ingested. NLP processes textual data to extract key features and understand nuances. ML models, like content-based filtering (matching student skills to job requirements) and collaborative filtering (recommending based on similar users/jobs), analyze these features. A ranking algorithm then generates personalized recommendations for students and suitable candidate lists for companies. Technologies involved would include Python for backend development, libraries such as TensorFlow or PyTorch for ML model training, and potentially a web framework like React or Angular for the user interface.",
   "feasibility_points": [
-    "Leverages readily available AI/ML libraries and frameworks, simplifying development efforts.",
-    "Training data can be sourced from past internship programs, job boards, and public datasets.",
-    "Cloud computing platforms offer scalable and cost-effective infrastructure for deployment.",
-    "Modular design allows for incremental development and feature expansion.",
-    "Standard web technologies can be used for rapid prototyping and deployment."
+    "Mature AI and ML technologies are readily available, making implementation technically feasible.",
+    "Access to relevant data, like anonymized resumes and job descriptions, can facilitate model training.",
+    "A minimum viable product (MVP) with core recommendation features can be built relatively quickly."
   ],
   "viability_points": [
-    "Addresses a significant pain point for both internship seekers and companies in PM.",
-    "Potential for strong partnerships with universities and corporate entities.",
-    "Monetization opportunities through premium features, analytics, or placement fees.",
-    "High demand for efficient talent acquisition solutions in the growing tech industry.",
-    "Scalable business model applicable to other specialized internship schemes."
+    "Addresses a clear market need for efficient, personalized internship matching in a competitive sector.",
+    "Potential for diverse revenue streams, including premium features for companies or students.",
+    "Scalable architecture allows for expansion to other internship categories or career development services."
   ],
   "impact_points": [
-    "Revolutionizes the PM internship recruitment landscape, creating a more equitable and efficient pathway for talent.",
-    "Fills critical product management roles faster with highly qualified, well-matched interns, boosting productivity."
+    "Empowers students to discover career-defining Product Management internships that align with their aspirations.",
+    "Enables companies to efficiently recruit top-tier PM talent, fostering innovation and future leadership."
   ],
   "beneficiaries": [
-    "Aspiring Product Managers: Gain access to highly relevant internships aligned with their skills and career goals.",
-    "Companies/Organizations: Efficiently find and recruit top PM talent, saving significant time and resources."
+    "University students seeking highly relevant and impactful Product Management internship opportunities.",
+    "Companies aiming to efficiently recruit high-quality, well-matched interns for their Product Management teams."
   ],
   "original_problem_statement": "Al-Based Internship Recommendation Engine for PM Internship Scheme",
   "category": "Software"

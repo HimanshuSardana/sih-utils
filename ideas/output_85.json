@@ -1,37 +1,34 @@
 {
-  "need_to_know": "Grey Water: Wastewater from non-toilet sources (sinks, showers, laundry). Wetland Management: Practices to conserve or restore wetlands. Water Conservation: Strategies to reduce the use of fresh water.",
-  "problem_statement": "Inefficient management of grey water leads to wastage and environmental strain. Poor wetland management further exacerbates water quality issues. There is an urgent need for integrated solutions for water conservation and sustainable reuse.",
-  "idea": "A comprehensive system leveraging constructed wetlands for grey water treatment and reuse. This approach will reduce fresh water demand, improve local ecosystems, and promote sustainable water management practices.",
-  "problem_resolution": "This idea addresses the problem by treating grey water through natural wetland systems, making it suitable for non-potable uses. This conserves fresh water, reduces discharge pollution, and creates valuable green spaces.",
+  "need_to_know": "Grey water refers to wastewater from sinks, showers, and laundry, excluding toilet water. Wetland management involves the conservation and restoration of natural or constructed wetlands, which act as natural filters and crucial ecosystems.",
+  "problem_statement": "Global water scarcity and environmental degradation necessitate effective grey water management, reuse, and sustainable wetland conservation to ensure long-term water security.",
+  "idea": "An integrated smart grey water recycling system combined with constructed wetlands to treat, reuse, and conserve water resources efficiently for residential and community applications.",
+  "problem_resolution": "This system efficiently treats grey water, significantly reduces fresh water demand for non-potable uses, and enhances ecological health through natural filtration in constructed wetlands.",
   "usps": [
-    "Cost-effective and energy-efficient grey water treatment solution.",
-    "Creates ecological habitats and enhances biodiversity through constructed wetlands.",
-    "Significantly reduces reliance on fresh, potable water sources.",
-    "Promotes a circular water economy in urban and rural settings.",
-    "Low-maintenance system with long-term environmental benefits."
+    "Eco-friendly approach utilizing natural processes for water treatment and purification, reducing chemical dependency.",
+    "Reduces household water bills by providing a sustainable alternative for non-potable uses like irrigation and flushing.",
+    "Scalable and modular design suitable for both individual homes and community-level implementation, ensuring adaptability.",
+    "Enhances local biodiversity and creates green spaces through integrated constructed wetlands, improving aesthetics.",
+    "Smart monitoring system ensures optimal performance and real-time water quality assessment, ensuring safety and efficiency."
   ],
-  "how_it_works": "Grey water from households or buildings is collected and directed to a pre-treatment unit for removing large solids and grease. This partially treated water then flows into a constructed wetland system, which consists of a lined basin filled with various media (e.g., gravel, sand) and emergent aquatic plants (e.g., reeds, cattails). The plants' roots provide surfaces for microbial growth, and these microorganisms naturally break down pollutants in the water. The wetland acts as a natural biological filter, removing organic matter, suspended solids, and nutrients through physical, chemical, and biological processes like filtration, adsorption, and microbial degradation (e.g., nitrification/denitrification). After passing through the wetland, the treated water can be collected in a storage tank. Depending on the intended reuse purpose (e.g., irrigation, toilet flushing), further disinfection (e.g., UV-C light, chlorination) may be applied. Technologies involved include collection plumbing, coarse filters, pumps, constructed wetland cells, various wetland plant species, and potentially UV disinfection units or simple chlorination systems.",
+  "how_it_works": "Grey water from sources like showers, sinks, and washing machines is collected and directed through an initial physical filtration stage (e.g., mesh screens, sand filters) to remove larger particles. The pre-treated water then flows into a constructed wetland, which is an engineered system designed to mimic natural wetlands. Here, specific aquatic plants (e.g., reeds, cattails) and a diverse microbial community living in the root zone and substrate biologically break down and filter out pollutants (nutrients, organic matter, pathogens) through processes like adsorption, nitrification, and denitrification. IoT sensors are integrated to monitor key parameters such as water levels, flow rates, pH, turbidity, and dissolved oxygen at various stages, allowing for real-time performance tracking and system optimization. The treated water, now safe for non-potable uses, is collected in a storage tank and can be pumped for irrigation, toilet flushing, car washing, or released to recharge groundwater, further contributing to water conservation. Key technologies involve smart sensors, low-power pumps, bio-filtration media, and a selection of native wetland plant species suited for bioremediation.",
   "feasibility_points": [
-    "Constructed wetland technology is proven and widely implemented globally.",
-    "Availability of local plant species and construction materials is high.",
-    "Modular design allows for scalable implementation in diverse settings.",
-    "Relatively low operational costs compared to conventional treatment.",
-    "Public awareness and support for green infrastructure is growing."
+    "Utilizes well-established filtration and bioremediation technologies, ensuring technical viability and reliability.",
+    "Modular design allows for easy implementation and scaling across different property sizes and community needs.",
+    "Availability of materials, plant species, and technical expertise for constructing wetlands is widespread.",
+    "Government incentives and policies often support water-saving technologies, aiding adoption."
   ],
   "viability_points": [
-    "Reduces municipal water bills for households and commercial entities.",
-    "Potential for generating carbon credits through enhanced ecosystems.",
-    "Aligns with government mandates for sustainable water management.",
-    "Creates new jobs in green infrastructure development and maintenance.",
-    "Increases property value by adding green, eco-friendly features."
+    "Significant long-term savings on municipal water bills make it economically attractive for end-users.",
+    "Reduces strain on existing municipal fresh water supplies, benefiting water utilities and public resources.",
+    "Increases property value by offering sustainable living features and green infrastructure integration."
   ],
   "impact_points": [
-    "Substantially reduces the demand on potable water supplies.",
-    "Enhances local biodiversity and creates green urban spaces."
+    "Substantially reduces fresh water consumption from municipal sources, easing pressure on strained natural water resources.",
+    "Improves local ecosystem health and biodiversity by creating or enhancing wetland habitats, attracting wildlife."
   ],
   "beneficiaries": [
-    "Households and businesses benefit from reduced water utility costs and improved environmental quality.",
-    "Local ecosystems and wildlife gain new habitats and cleaner water sources."
+    "Households and communities gain access to a sustainable, cost-effective water source for non-potable needs, reducing reliance on fresh water.",
+    "The local environment and wildlife benefit from healthier ecosystems, reduced water pollution, and enhanced biodiversity."
   ],
   "original_problem_statement": "GREY WATER MANAGEMENT AND REUSE WET LAND MANAGEMENT WATER CONSERVATION",
   "category": "Hardware"

@@ -1,33 +1,34 @@
 {
-  "need_to_know": "Crowdsourced Ocean Hazard Reporting allows users to report marine dangers. Social Media Analytics involves AI scanning platforms for hazard mentions, trends, and sentiment, providing supplementary real-time insights.",
-  "problem_statement": "Fragmented ocean hazard reporting and lack of real-time, integrated social media insights hinder effective response. This causes delayed action and incomplete understanding of marine risks, jeopardizing safety and environmental health.",
-  "idea": "Develop 'OceanWatch,' an integrated platform for real-time crowdsourced ocean hazard reporting combined with AI-powered social media analytics. It aims to detect, verify, and disseminate marine threat information rapidly.",
-  "problem_resolution": "OceanWatch centralizes hazard data from multiple sources, providing authorities with a real-time, comprehensive overview. This enables quicker response, better resource allocation, and informed decision-making for marine safety and environmental protection.",
+  "need_to_know": "Crowdsourced Ocean Hazard Reporting refers to people actively reporting marine dangers (e.g., pollution, unsafe conditions, natural phenomena) via a platform. Social Media Analytics involves using AI to scan social media for relevant posts, images, and trends related to ocean hazards for early detection.",
+  "problem_statement": "Current methods for identifying ocean hazards are often slow or localized. There's a critical need for a real-time, comprehensive system that leverages public input and social media intelligence to detect and report marine dangers quickly and efficiently, enhancing safety and response.",
+  "idea": "Develop an \"AquaAlert\" integrated platform combining crowdsourced mobile reporting with real-time social media analytics to swiftly detect, verify, and disseminate information on ocean hazards.",
+  "problem_resolution": "AquaAlert provides a centralized system for rapid hazard identification. It unifies user reports and social media data, enabling quicker response times and enhanced safety for marine activities and coastal communities through proactive alerts.",
   "usps": [
-    "Real-time, geo-tagged hazard reporting directly from users via mobile or web.",
-    "AI-driven social media monitoring for early detection of emerging marine threats.",
-    "Integrated dashboard offering comprehensive data visualization for authorities.",
-    "Proactive alert system for coastal communities regarding impending dangers.",
-    "Data-driven insights for trend analysis and predictive modeling of hazards."
+    "Real-time data aggregation from diverse sources for comprehensive hazard detection and monitoring.",
+    "AI-powered social media sentiment and image analysis for early warning and verification of potential dangers.",
+    "User-friendly mobile application for easy, on-the-go reporting by the public and marine enthusiasts.",
+    "Geospatial mapping functionality to visualize hazard locations and affected areas instantly for better situational awareness.",
+    "Automated alert system to notify relevant authorities and communities proactively about verified ocean hazards."
   ],
-  "how_it_works": "Users report hazards via a mobile app or web portal with location, photos, and descriptions. This data is stored in a cloud database. A social media crawler continuously scrapes platforms (e.g., Twitter, Instagram, Reddit) for keywords related to ocean hazards. Natural Language Processing (NLP) models analyze text for sentiment, entities, and topics. Machine learning algorithms correlate crowdsourced reports with social media findings to verify and prioritize threats. A web-based dashboard displays real-time hazard maps, trend graphs, and sends push notifications/SMS alerts to relevant stakeholders and the public. Technologies involved: Mobile development (React Native/Flutter), Web development (React/Node.js), Cloud platforms (AWS/Azure/GCP for hosting, databases like PostgreSQL/MongoDB), AI/ML libraries (TensorFlow/PyTorch, scikit-learn, spaCy), Social media APIs, geospatial libraries (Leaflet/Mapbox).",
+  "how_it_works": "The platform consists of a mobile application for crowdsourced reporting and a robust backend system for social media analytics. Users report hazards (e.g., oil spills, dangerous currents, marine debris, algal blooms) via the app, providing location, photos, and descriptions. This data is instantly sent to the cloud. Concurrently, a social media monitoring module uses natural language processing (NLP) and computer vision (CV) to scan public posts on platforms like Twitter, Instagram, and Facebook for keywords, images, and hashtags related to ocean hazards. AI algorithms correlate user reports with social media data, prioritizing and verifying reports based on multiple data points and credibility scores. Verified hazards are displayed on a real-time interactive map using GIS technology and trigger automated alerts to relevant environmental agencies, coast guards, and local communities. Key technologies involved include: Mobile SDKs (e.g., React Native, Flutter for cross-platform app development), Cloud platforms (e.g., AWS, Azure, GCP for scalable infrastructure), Database (e.g., PostgreSQL for relational data, MongoDB for unstructured social media data), Social Media APIs (e.g., Twitter API, Instagram Graph API), NLP libraries (e.g., SpaCy, NLTK for text analysis), Computer Vision frameworks (e.g., OpenCV, TensorFlow/PyTorch for image analysis), and GIS tools (e.g., Leaflet.js, OpenLayers for mapping).",
   "feasibility_points": [
-    "Leverages widespread smartphone use and readily available cloud computing infrastructure.",
-    "Utilizes established open-source AI/ML frameworks and social media APIs.",
-    "Modular design allows for incremental development and feature expansion."
+    "Leverages existing mobile app development frameworks and scalable cloud infrastructure for efficient and rapid deployment.",
+    "Open-source AI/ML libraries and social media APIs are readily available for data analysis and integration.",
+    "Scalable cloud services can handle increasing user reports and high-volume social media data processing efficiently.",
+    "Availability of readily accessible satellite imagery and geospatial data for enhanced hazard verification."
   ],
   "viability_points": [
-    "Addresses a critical global need for enhanced marine safety and environmental monitoring.",
-    "Potential for partnerships with governments, NGOs, and research institutions for funding.",
-    "Scalable model; data valuable for insurance, shipping, and tourism industries."
+    "Addresses a critical and growing need for timely ocean hazard detection, significantly improving marine safety.",
+    "Potential for strong partnerships with environmental agencies, coast guards, and maritime industries for adoption.",
+    "Can be monetized through premium features for institutional users, data licensing, or government contracts."
   ],
   "impact_points": [
-    "Significantly improves marine safety and facilitates rapid environmental hazard response.",
-    "Empowers citizens to actively participate in ocean stewardship and protection efforts."
+    "Significantly reduces response times to marine emergencies and environmental disasters, mitigating damage and saving lives.",
+    "Enhances public safety for ocean users, coastal communities, and marine wildlife by providing timely and accurate warnings."
   ],
   "beneficiaries": [
-    "Coastal communities, fishermen, and recreational ocean users benefit from early warnings.",
-    "Environmental agencies, maritime authorities, and researchers gain crucial real-time data."
+    "Environmental protection agencies, coast guards, and maritime authorities gain critical real-time intelligence for rapid response.",
+    "Fishermen, surfers, boaters, and coastal residents receive vital safety information and hazard alerts directly."
   ],
   "original_problem_statement": "Integrated Platform for Crowdsourced Ocean Hazard Reporting and Social Media Analytics",
   "category": "Software"
