@@ -42,20 +42,30 @@ for item in data:
     Create content for a PPT slide deck based on the above problem statement.
     """
 
-    response = client.models.generate_content(
-        model="gemini-2.5-flash",
-        contents='\n'.join([SYSTEM_PROMPT, user_prompt]),
-        config={
-            "response_mime_type": "application/json",
-            "response_schema": Content.model_json_schema(),
-        },
-    )
+    for attempt in range(3):
+        try:
+            response = client.models.generate_content(
+                model="gemini-2.5-flash",
+                contents='\n'.join([SYSTEM_PROMPT, user_prompt]),
+                config={
+                    "response_mime_type": "application/json",
+                    "response_schema": Content.model_json_schema(),
+                },
+            )
 
-    json_resp = response.parsed
-    json_resp["original_problem_statement"] = item["problem_statement"]
-    json_resp["category"] = item["category"]
-    # print(json.dumps(response.parsed, indent=2))
-    with open(f"ideas/output_{item['sno']}.json", "w") as f:
-        json.dump(json_resp, f, indent=2)
-    print(f"Output written to output_{item['sno']}.json")
-    time.sleep(5)
+            json_resp = response.parsed
+            if isinstance(json_resp, BaseModel):
+                json_resp = json_resp.model_dump()
+            json_resp["original_problem_statement"] = item["problem_statement"]
+            json_resp["category"] = item["category"]
+            with open(f"ideas/output_{item['sno']}.json", "w") as f:
+                json.dump(json_resp, f, indent=2)
+            print(f"[{time.strftime('%Y-%m-%d %H:%M:%S')}] Output written to output_{item['sno']}.json")
+            time.sleep(5)
+            break
+        except Exception as e:
+            print(f"{time.strftime('%Y-%m-%d %H:%M:%S')} Attempt {attempt+1} failed: {e}")
+            if attempt == 2:
+                print(f"{time.strftime('%Y-%m-%d %H:%M:%S')} Failed to process item with sno {item['sno']} after 3 attempts.")
+            else:
+                time.sleep(2)
